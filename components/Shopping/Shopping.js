@@ -22,7 +22,8 @@ class Shopping {
 
         const html = `
             <div class="shopping-container">
-                <div class="shopping__close" onclick="shoppingPage.handlerClear();"></div>
+            <button type="button" class="btn btn-outline-danger" onclick="shoppingPage.handlerClear();>Закрыть</button>
+                
                 <table>
                     ${htmlCatalog}
                     <tr>

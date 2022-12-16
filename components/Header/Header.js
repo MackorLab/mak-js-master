@@ -7,7 +7,7 @@ class Header {
         const html = `
             <div class="header-container">
                 <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
-                    <a href="https://www.flaticon.com/ru/free-icons/" title="тележка иконки">Тележка иконки от Freepik - Flaticon</a> ${count}
+                    <a><img src="https://i.ibb.co/xjQM8kr/shoppingcart-to-compra-12829.png" alt="shoppingcart" border="0"></a> ${count}
                 </div>
             </div>
         `;

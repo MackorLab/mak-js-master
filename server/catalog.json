@@ -28,5 +28,11 @@
         "name": "«Вовлечение Х10»",
         "img": "https://i.ibb.co/TqZ3483/7s-HVD9qlgs-Q.jpg",
         "price": 3000
+    },
+    {
+        "id": "el6",
+        "name": "Senler - Практический курс",
+        "img": "https://i.ibb.co/SXCLRyq/0h-PZTu-Lnmc0.jpg",
+        "price": 7000
     }
 ]

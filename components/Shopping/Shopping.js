@@ -22,7 +22,7 @@ class Shopping {
 
         const html = `
             <div class="shopping-container">
-          <a onclick="shoppingPage.handlerClear();"><img src="https://i.ibb.co/tBG4Q3H/shopping-cart-remove-12830.png" alt="shopping-cart"></a>
+          <a onclick="shoppingPage.handlerClear();"><img src="https://i.ibb.co/F3SMJxY/shopping-cart-remove-12830-1.png" alt="shopping-cart"></a>
                 
                 <table>
                     ${htmlCatalog}

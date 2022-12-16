@@ -19,7 +19,7 @@
 	color: var(--color-unaccent);
 }
 .shopping__close {
-	position: absolute;
+	margin-left: 5%;
 	top: 20px;
 	right: 20px;
 	width: 35px;

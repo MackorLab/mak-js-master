@@ -5,7 +5,7 @@
     background-color: var(--color-medium);
 }
 .header-counter {
-    margin-left: auto;
+    margin-left: 5%;
     padding-right: var(--spacing-small);
     font-weight: bold;
     cursor: pointer;

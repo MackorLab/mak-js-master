@@ -30,7 +30,7 @@ body {
 	font-family: sans-serif;
 	line-height: 1.7;
 	z-index: 1; 
-	background: var(--color-light);
+	
 }
 
 ::-webkit-scrollbar {

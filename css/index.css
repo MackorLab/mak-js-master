@@ -29,7 +29,8 @@ body {
 	padding: 0;
 	font-family: sans-serif;
 	line-height: 1.7;
-	background: var(--color-light);
+	
+	opacity: 0.5;
 }
 
 ::-webkit-scrollbar {

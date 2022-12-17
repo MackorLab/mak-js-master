@@ -1,15 +1,15 @@
 [
     {
         "id": "el1",
-        "name": "Бизнес на Автопилоте - бесплатный тренинг",
-        "img": "https://i.ibb.co/GMxqsBv/SS0f6de-UId-E.jpg",
-        "price": 0
+        "name": "Арт-баннер для постов",
+        "img": "https://sun9-62.userapi.com/2T7BpFoHR_9mZt2_wpGv0LTylwkSm45T-52VLQ/yMSKBZ9sqMo.jpg",
+        "price": 1500 
     },
     {
         "id": "el2",
-        "name": "Консультация по Автопилоту / 1 час",
-        "img": "https://i.ibb.co/xsVqjyN/Sk-TRIl5-Mh-YI.jpg",
-        "price": 4000
+        "name": "Упаковка [базовый]",
+        "img": "https://sun9-60.userapi.com/GyhnwQQAqM5KxJEkzSfwuY5govkHbCS9vhPAwg/pd0J57niDKc.jpg",
+        "price": 3500
     },
     {
         "id": "el3",

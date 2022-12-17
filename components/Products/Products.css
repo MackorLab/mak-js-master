@@ -5,9 +5,7 @@
 	width: 80%;
 	max-width: 900px;
 	margin: var(--spacing-large) auto;
-        -webkit-box-shadow: 8px 10px 8px 0px rgba(233, 63, 244, 0.39);
-        -moz-box-shadow: 8px 10px 8px 0px rgba(233, 63, 244, 0.39);
-        box-shadow: 8px 10px 8px 0px rgba(233, 63, 244, 0.39);
+        
 
 
 
@@ -22,6 +20,11 @@
 	border-radius: var(--border-radius);
 	background-color: var(--color-white);
 	box-shadow: var(--box-shadow);
+        -webkit-box-shadow: 8px 10px 8px 0px rgba(233, 63, 244, 0.39);
+        -moz-box-shadow: 8px 10px 8px 0px rgba(233, 63, 244, 0.39);
+        box-shadow: 8px 10px 8px 0px rgba(233, 63, 244, 0.39);
+
+
 }
 .products-element__name {
 	margin-bottom: auto;

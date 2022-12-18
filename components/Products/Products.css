@@ -41,7 +41,7 @@
 
 .products-element__img:hover {
 	width: 110%;
-	height: 220px;
+	
 	margin-top: var(--spacing-medium);
 	object-fit: contain;
         transition: box-shadow 0.5s, transform 0.5s;

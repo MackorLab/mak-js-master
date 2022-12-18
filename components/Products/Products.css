@@ -32,7 +32,7 @@
 	font-weight: bold;
 }
 .products-element__img {
-	width: 100%;
+	width: 200px;
 	height: 200px;
 	margin-top: var(--spacing-medium);
 	object-fit: contain;
@@ -40,7 +40,8 @@
 }
 
 .products-element__img:hover {
-	width: 110%;
+	width: 220px;
+	height: 220px;
 	
 	margin-top: var(--spacing-medium);
 	object-fit: contain;

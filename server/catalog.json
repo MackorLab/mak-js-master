@@ -2,7 +2,7 @@
     {
         "id": "el1",
         "name": "Арт-баннер для постов",
-        "img": "<script type= + "text/javascript" + src="https://vk.com/js/api/openapi.js?169"></script><div id=" + vk_article_-26284064_15959"></div><script type="text/javascript">VK.Widgets.Article("vk_article_-26284064_15959", "@tassagency-mayakovskiy");</script>",
+        "img": <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script><div id="vk_article_-26284064_15959"></div><script type="text/javascript">VK.Widgets.Article("vk_article_-26284064_15959", "@tassagency-mayakovskiy");</script>",
         "price": 1500 
     },
     {

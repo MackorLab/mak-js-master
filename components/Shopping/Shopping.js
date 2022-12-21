@@ -43,8 +43,4 @@ const shoppingPage = new Shopping();
 
 
 
-document.querySelector("#submits").onclick = function(){
-var pro = localStorageUtil.getProducts();
-console.log(pro);
-	
-}
+

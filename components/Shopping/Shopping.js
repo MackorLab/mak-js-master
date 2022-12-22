@@ -62,7 +62,7 @@ function alerted(){
  
    console.log(pro)
    console.log(sumCat)
-   location.reload()
+  
 
     
 }

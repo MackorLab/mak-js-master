@@ -1,6 +1,4 @@
- var htmlCatalog = '';
- var sumCatalog = 0;
-
+ var sumCat = 0;
 
 class Shopping {
     handlerClear() {
@@ -12,7 +10,9 @@ class Shopping {
        
         
         
-        
+         let htmlCatalog = '';
+         let sumCatalog = 0;
+
         
         
         
@@ -26,6 +26,7 @@ class Shopping {
                     </tr>
                 `;
                 sumCatalog += price;
+             sumCat = sumCatalog;
             }
         });
 
@@ -60,7 +61,7 @@ function alerted(){
    var pro = localStorageUtil.getProducts(); 
  
    console.log(pro)
-   console.log(sumCatalog)
+   console.log(sumCat)
    location.reload()
 
     

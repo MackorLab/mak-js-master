@@ -41,7 +41,7 @@ class Shopping {
                         <td class="shopping-element__price">${sumCatalog.toLocaleString()} ₽</td>
                     </tr>
                 </table>
-                <button type="button" id="submits"class="btn btn-warning" onclick="alerted();">Оформить заказ</button>
+                <button type="button" id="submits" class="btn btn-outline-warning" onclick="alerted();">Оформить заказ</button>
             </div>
         `;
 

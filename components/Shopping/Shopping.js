@@ -31,25 +31,12 @@ class Shopping {
                         <td class="shopping-element__price">${sumCatalog.toLocaleString()} ₽</td>
                     </tr>
                 </table>
-                <button type="button" id="submits" class="btn btn-warning">Оформить заказ</button>
+                <button type="button" class="btn btn-warning">Оформить заказ</button>
             </div>
         `;
 
         ROOT_SHOPPING.innerHTML = html;
     }
-    
-   	
-
-    
-    
-    
 };
 
-
-
-
 const shoppingPage = new Shopping();
-
-
-
-

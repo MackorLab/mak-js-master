@@ -1,5 +1,12 @@
  var sumCat = 0;
+window.scroll(left, top); // left - по оси Х, top - по оси Y
 
+// 2 вариант
+window.scroll({
+  left: 0, // до какого количества пикселей прокрутить вправо
+  top: 0, // до какого количество пикселей прокрутить вниз
+  behavior: 'auto'; // определяет плавность прокрутки: 'auto' - мгновенно (по умолчанию), 'smooth' - плавно
+});
 class Shopping {
     handlerClear() {
         ROOT_SHOPPING.innerHTML = '';

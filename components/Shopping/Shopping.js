@@ -64,10 +64,14 @@ function alerted(){
    console.log(sumCat)
  
  
-$.get( "https://skyauto.me/cllbck/217669590/1681861/SVF5Q2wyVUYrb2RrOFhqV3lMY3d5UT0?api=1", {sid: "535939344"}, function( data ) {
-              $( '.msg' ).html( data );
+   $.ajax({
+                      url: 'https://skyauto.me/cllbck/217669590/1681861/SVF5Q2wyVUYrb2RrOFhqV3lMY3d5UT0?api=1&sid=535939344',
+                      type: 'POST',
+                      dataType: 'jsonp',
+                      crossDomain: true,
+                      
+                      })
 
-                   });
    
  
  

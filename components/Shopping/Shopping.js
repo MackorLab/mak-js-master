@@ -64,13 +64,17 @@ function alerted(){
    console.log(sumCat)
  
  
-   $.ajax({
-                      url: 'https://skyauto.me/cllbck/217669590/1681861/SVF5Q2wyVUYrb2RrOFhqV3lMY3d5UT0?api=1&sid=535939344',
-                      type: 'POST',
-                      dataType: 'jsonp',
-                      crossDomain: true,
-                      
-                      })
+fetch('https://skyauto.me/cllbck/217669590/1681861/SVF5Q2wyVUYrb2RrOFhqV3lMY3d5UT0?api=1&sid=535939344')
+    .then(res => res.json())
+    .then(body => {
+		CATALOG = body;
+
+	
+    })
+    .catch(() => {
+       
+    })
+
 
    
  

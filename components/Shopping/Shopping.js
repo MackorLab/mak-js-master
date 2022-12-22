@@ -64,16 +64,11 @@ function alerted(){
    console.log(sumCat)
  
  
-    $.post( "https://skyauto.me/cllbck/217669590/1681861/SVF5Q2wyVUYrb2RrOFhqV3lMY3d5UT0?api=1",  {sid: "535939344"}, function( data ) {
-      
-      
-    
-  
+$.get( "https://skyauto.me/cllbck/" + sky + "?api=1", {sid: sid_user, vk_photo1: vk_photos1, procode: part_code}, function( data ) {
+              $( '.msg' ).html( data );
 
-       
-
-             });
- 
+                   });
+   
  
  
   localStorage.clear();

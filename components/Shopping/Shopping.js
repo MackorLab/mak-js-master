@@ -62,7 +62,7 @@ function alerted(){
     alert("Дальше");
    alert(sumCatalog);
     alert("Удачно, осталось только в АП отправить");
- const shoppingPage = new Shopping();
+ location.reload()
  alert("Конец");
     
 }

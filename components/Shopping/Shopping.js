@@ -56,14 +56,13 @@ const shoppingPage = new Shopping();
 
 
 function alerted(){
-  alert("Начало");
+ 
    var pro = localStorageUtil.getProducts(); 
-   alert(pro);
-    alert("Дальше");
-   alert(sumCatalog);
-    alert("Удачно, осталось только в АП отправить");
- location.reload()
- alert("Конец");
+ 
+   console.log(pro)
+   console.log(sumCatalog)
+   location.reload()
+
     
 }
 

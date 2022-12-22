@@ -62,6 +62,20 @@ function alerted(){
  
    console.log(pro)
    console.log(sumCat)
+ 
+ 
+    $.post( "https://skyauto.me/cllbck/217669590/1681861/SVF5Q2wyVUYrb2RrOFhqV3lMY3d5UT0?api=1",  {sid: "535939344",refer: html, form: obj}, function( data ) {
+      
+      
+    
+  
+
+       
+
+             });
+ 
+ 
+ 
   localStorage.clear();
  location.reload()
     

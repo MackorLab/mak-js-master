@@ -79,7 +79,7 @@ function alerted(){
                       })
                       .then(res => res.json())
                       .then(body => {
-                      CATALOG = body;
+                      
                   
                     
                       })

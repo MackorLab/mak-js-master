@@ -39,16 +39,19 @@ class Shopping {
     }
     
    	
+
+    
+    
+    
+};
+
+
 document.querySelector("#submits").onclick = function(){
 		console.log("KNOP");
 
 
 	
 } 
-    
-    
-    
-};
 
 const shoppingPage = new Shopping();
 

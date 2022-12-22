@@ -47,7 +47,11 @@ const shoppingPage = new Shopping();
 
 
 function alerted(){
-  alert("Вы нажали на кнопку");
+  alert("шаг 1");
+   var pro = localStorageUtil.getProducts(); 
+   alert(var);
+    alert(sumCatalog.toLocaleString());
+    
 }
 
 

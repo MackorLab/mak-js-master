@@ -63,7 +63,7 @@ function alerted(){
    console.log(pro)
    console.log(sumCat)
   
-
+ ROOT_SHOPPING.innerHTML = '';
     
 }
 

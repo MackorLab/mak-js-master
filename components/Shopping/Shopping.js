@@ -31,7 +31,7 @@ class Shopping {
                         <td class="shopping-element__price">${sumCatalog.toLocaleString()} ₽</td>
                     </tr>
                 </table>
-                <button type="button" id="submits"class="btn btn-warning">Оформить заказ</button>
+                <button type="button" id="submits"class="btn btn-warning" onclick="alerted();">Оформить заказ</button>
             </div>
         `;
 
@@ -43,14 +43,12 @@ class Shopping {
 
 
 
-const shoppingPage = new Shopping(
+const shoppingPage = new Shopping();
 
-document.querySelector("#submits").onclick = function(){
+
+function alerted(){
   alert("Вы нажали на кнопку");
 }
-
-);
-
 
 
 

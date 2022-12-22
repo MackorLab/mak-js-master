@@ -62,8 +62,8 @@ function alerted(){
  
    console.log(pro)
    console.log(sumCat)
-  
- ROOT_SHOPPING.innerHTML = '';
+  localStorage.clear();
+ //ROOT_SHOPPING.innerHTML = '';
     
 }
 

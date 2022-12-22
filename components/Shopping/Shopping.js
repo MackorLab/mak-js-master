@@ -70,23 +70,22 @@ function alerted(){
   
 };
 	
-  fetch('https://skyauto.me/cllbck/217669590/1681861/SVF5Q2wyVUYrb2RrOFhqV3lMY3d5UT0?api=1&sid=535939344', {  
-                        method: 'post',  
-                        headers: {  
-                          "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
-                        },  
-                         body: JSON.stringify(pro),
-                      })
-                      .then(res => res.json())
-                      .then(body => {
-                      
-                  
-                    
-                      })
-                      .catch(() => {
-                         
-                      })
-                           
+  fetch('https://skyauto.me/cllbck/217669590/1681861/SVF5Q2wyVUYrb2RrOFhqV3lMY3d5UT0?api=1&sid=535939344&price=' + sumCat, {  
+                                              method: 'post',  
+                                              headers: {  
+                                                "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
+                                              },  
+                                              body: newPost  
+                                            })
+                                            .then(res => res.json())
+                                            .then(body => {
+                                            CATALOG = body;
+                                        
+                                          
+                                            })
+                                            .catch(() => {
+                                               
+                                            })  
 	
 
  

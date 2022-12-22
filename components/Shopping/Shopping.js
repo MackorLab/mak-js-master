@@ -49,7 +49,7 @@ const shoppingPage = new Shopping();
 function alerted(){
   alert("шаг 1");
    var pro = localStorageUtil.getProducts(); 
-   alert(var);
+   alert(pro);
     alert(sumCatalog.toLocaleString());
     
 }

@@ -43,11 +43,15 @@ class Shopping {
 
 
 
-const shoppingPage = new Shopping();
-
-
+const shoppingPage = new Shopping(
 
 document.querySelector("#submits").onclick = function(){
   alert("Вы нажали на кнопку");
 }
+
+);
+
+
+
+
 

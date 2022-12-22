@@ -75,7 +75,7 @@ function alerted(){
                         headers: {  
                           "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
                         },  
-                         body: JSON.stringify(newPost),
+                         body: JSON.stringify(pro),
                       })
                       .then(res => res.json())
                       .then(body => {

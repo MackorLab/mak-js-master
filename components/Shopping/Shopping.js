@@ -1,3 +1,7 @@
+ var htmlCatalog = '';
+ var sumCatalog = 0;
+
+
 class Shopping {
     handlerClear() {
         ROOT_SHOPPING.innerHTML = '';
@@ -5,8 +9,13 @@ class Shopping {
 
     render() {
         const productsStore = localStorageUtil.getProducts();
-        let htmlCatalog = '';
-        let sumCatalog = 0;
+       
+        
+        
+        
+        
+        
+        
 
         CATALOG.forEach(({ id, name, price }) => {
             if (productsStore.indexOf(id) !== -1) {
@@ -51,7 +60,7 @@ function alerted(){
    var pro = localStorageUtil.getProducts(); 
    alert(pro);
     alert("Дальше");
-   alert(price.toLocaleString());
+   alert(sumCatalog);
     alert("Удачно, осталось только в АП отправить");
     
 }

@@ -2,7 +2,7 @@
 
 class Shopping {
     handlerClear() {
-        ROOT_SHOPPING.innerHTML = '';
+        ROOT_PRODUCTS.innerHTML = '';
     }
 
     render() {
@@ -45,7 +45,7 @@ class Shopping {
             </div>
         `;
 
-        ROOT_SHOPPING.innerHTML = html;
+        ROOT_PRODUCTS.innerHTML = html;
     }
 };
 

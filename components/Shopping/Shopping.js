@@ -75,7 +75,8 @@ function alerted(){
                                             .then(res => res.json())
                                             .then(body => {
                                             
-                                        
+                                        localStorage.clear();
+ location.reload()
                                           
                                             })
                                             .catch(() => {
@@ -85,8 +86,7 @@ function alerted(){
 
  
  
-  localStorage.clear();
- location.reload()
+  
     
 }
 

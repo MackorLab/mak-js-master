@@ -45,7 +45,7 @@ class Shopping {
             </div>
         `;
 
-        ROOT_PRODUCTS.innerHTML = html;
+         ROOT_SHOPPING.innerHTML = html;
     }
 };
 

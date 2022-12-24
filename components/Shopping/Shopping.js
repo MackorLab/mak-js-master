@@ -111,7 +111,7 @@ ROOT_SHOPPING.innerHTML = html;
                                                   body: JSON.stringify(pro)
                                                 })
                                                 .then(response => response.json())
-                                                .then(body => {
+                                                .then(data => {
                                                 
                                             localStorage.clear();
                                             location.reload()

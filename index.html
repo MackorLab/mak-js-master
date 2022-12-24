@@ -18,7 +18,7 @@
 </head>
 <body>
 	<script>
-var sir;
+var vkid;
 var first_name;
 var vk_photosmax;
 var var refer;	
@@ -36,7 +36,7 @@ vkBridge.send('VKWebAppInit');
  vkBridge.send('VKWebAppGetUserInfo')
  .then(data => {
 
-   sir = data.id;
+   vkid = data.id;
    first_name = data.first_name;
    vk_photosmax = data.photo_max_orig
    var str = (location.hash);

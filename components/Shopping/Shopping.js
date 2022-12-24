@@ -72,7 +72,7 @@ function alerted(){
                                               },  
                                               body: JSON.stringify(pro)
                                             })
-                                            .then(res => res.json())
+                                            .then(response => response.json())
                                             .then(body => {
                                             
                                         localStorage.clear();

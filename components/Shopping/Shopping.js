@@ -34,7 +34,7 @@
            
            
            
-if (sumCat > 0) {
+if (sumCatalog > 0) {
   const html = `
   <div class="shopping-container">
 <a class="header-icon" onclick="shoppingPage.handlerClear();"><img src="https://i.ibb.co/F3SMJxY/shopping-cart-remove-12830-1.png" alt="shopping-cart"></a>

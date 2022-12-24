@@ -116,7 +116,12 @@ ROOT_SHOPPING.innerHTML = html;
            localStorage.clear()
      
           document.location = res.url;
-      location.reload()
+      function func()
+{
+location.reload()
+}
+
+setTimeout(func, 5000);
     })
     .then(body => {
     

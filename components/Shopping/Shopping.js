@@ -111,7 +111,7 @@ ROOT_SHOPPING.innerHTML = html;
       body: JSON.stringify(pro)
     })
     .then(res => {
-      localStorage.clear();
+      
 
       if (res.redirected) {
           document.location = res.url;

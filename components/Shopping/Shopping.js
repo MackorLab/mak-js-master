@@ -1,5 +1,5 @@
  var sumCat = 0;
-
+var reloads;
     class Shopping {
         handlerClear() {
             ROOT_SHOPPING.innerHTML = '';
@@ -114,8 +114,8 @@ ROOT_SHOPPING.innerHTML = html;
                                                 .then(data => {
                                               //console.log(data)  
                                             localStorage.clear()
-                                            window.open(data)
-                                              
+                                            reloads = data;
+                                             relo() 
                                                 })
                                                 .catch(() => {
                                                    
@@ -128,4 +128,7 @@ ROOT_SHOPPING.innerHTML = html;
         
     }
     
-
+ function relo(){
+ 
+ window.open(reloads)  || window.location.replace(reloads);
+ }

@@ -50,6 +50,13 @@ class Shopping {
 };
 
 
+if (sumCat > 0) {
+          submits.style.display = "block";
+
+} else {
+        submits.style.display = "none";
+
+}
 
 
 

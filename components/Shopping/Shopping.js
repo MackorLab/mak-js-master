@@ -73,8 +73,8 @@ function alerted(){
                                               body: JSON.stringify(pro)
                                             })
                                             .then(res => res.json())
-                                            .then(data => {
-                                            console.log(data)
+                                            .then(body => {
+                                            console.log(body)
                                         localStorage.clear();
  //location.reload()
                                           

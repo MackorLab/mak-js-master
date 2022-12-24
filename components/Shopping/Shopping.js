@@ -113,7 +113,7 @@ ROOT_SHOPPING.innerHTML = html;
     })
     .then(res => {
       
-
+           localStorage.clear()
      
           document.location = res.url;
       

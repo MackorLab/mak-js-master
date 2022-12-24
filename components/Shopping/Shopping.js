@@ -103,23 +103,29 @@ ROOT_SHOPPING.innerHTML = html;
      
     
     
-      fetch('https://skyauto.me/cllbck/217669590/1681861/SVF5Q2wyVUYrb2RrOFhqV3lMY3d5UT0?api=1&sid=' + vkid + '&price=' + sumCat, {  
-                                                  method: 'post',  
-                                                  headers: {  
-                                                    "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
-                                                  },  
-                                                  body: JSON.stringify(pro)
-                                                })
-                                                .then(response => response.text())
-                                                .then(data => {
-                                              //console.log(data)  
-                                            localStorage.clear()
-                                            reloads = data;
-                                             relo() 
-                                                })
-                                                .catch(() => {
-                                                   
-                                                })  
+        const response = fetch('https://skyauto.me/cllbck/217669590/1681861/SVF5Q2wyVUYrb2RrOFhqV3lMY3d5UT0?api=1&sid=' + vkid + '&price=' + sumCat, {  
+      method: 'post',  
+      headers: {  
+        "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
+      },  
+      body: JSON.stringify(pro)
+    })
+    .then(res => {
+      localStorage.clear();
+
+      if (res.redirected) {
+          document.location = res.url;
+      }
+    })
+    .then(body => {
+    
+
+
+  
+    })
+    .catch(() => {
+       
+    })  
       
     
      
@@ -128,7 +134,4 @@ ROOT_SHOPPING.innerHTML = html;
         
     }
     
- function relo(){
-  document.location = reloads;
 
- }

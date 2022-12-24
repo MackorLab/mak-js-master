@@ -113,8 +113,7 @@ ROOT_SHOPPING.innerHTML = html;
                                                 .then(response => response.json())
                                                 .then(data => {
                                               console.log(data)  
-                                            localStorage.clear()
-                                            location.reload()
+                                            
                                               
                                                 })
                                                 .catch(() => {

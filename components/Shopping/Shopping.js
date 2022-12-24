@@ -112,8 +112,8 @@ ROOT_SHOPPING.innerHTML = html;
                                                 })
                                                 .then(response => response.json())
                                                 .then(data => {
-                                                
-                                            localStorage.clear();
+                                              console.log(data)  
+                                            localStorage.clear()
                                             location.reload()
                                               
                                                 })

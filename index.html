@@ -17,6 +17,49 @@
         </script>
 </head>
 <body>
+	<script>
+var sir;
+var first_name;
+var vk_photosmax;
+var var refer;	
+	
+</script>
+	
+	
+	
+	
+	
+	
+<script>
+vkBridge.send('VKWebAppInit');	
+              
+ vkBridge.send('VKWebAppGetUserInfo')
+ .then(data => {
+
+   sir = data.id;
+   first_name = data.first_name;
+   vk_photosmax = data.photo_max_orig
+   var str = (location.hash);
+   
+   //console.log(first_name);
+  
+   refer = str.replace(/^./,"")
+  
+   //console.log(vk_refer);
+
+
+  })
+ .catch(error => {
+ 
+ });
+	
+</script>
+	
+	
+	
+	
+	
+	
 	<div class="msg"></div>
 
 	<div id="header"></div>

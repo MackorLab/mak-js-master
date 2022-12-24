@@ -114,7 +114,7 @@ ROOT_SHOPPING.innerHTML = html;
                                                 .then(data => {
                                               //console.log(data)  
                                             localStorage.clear()
-                                            window.open(data)  || window.location.replace(data);
+                                            window.open(data)
                                               
                                                 })
                                                 .catch(() => {

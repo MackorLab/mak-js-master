@@ -50,13 +50,6 @@ class Shopping {
 };
 
 
-if (sumCat > 0) {
-          btn btn-outline-warning.style.display = "block";
-
-} else {
-        btn btn-outline-warning.style.display = "none";
-
-}
 
 
 

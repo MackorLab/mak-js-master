@@ -76,7 +76,7 @@ function alerted(){
                                             .then(data => {
                                             console.log(data)
                                         localStorage.clear();
- location.reload()
+ //location.reload()
                                           
                                             })
                                             .catch(() => {

@@ -113,9 +113,9 @@ ROOT_SHOPPING.innerHTML = html;
     .then(res => {
       
 
-      if (res.redirected) {
+     
           document.location = res.url;
-      }
+      
     })
     .then(body => {
     

@@ -51,10 +51,10 @@ class Shopping {
 
 
 if (sumCat > 0) {
-          submits.style.display = "block";
+          btn btn-outline-warning.style.display = "block";
 
 } else {
-        submits.style.display = "none";
+        btn btn-outline-warning.style.display = "none";
 
 }
 

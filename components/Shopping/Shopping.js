@@ -129,6 +129,6 @@ ROOT_SHOPPING.innerHTML = html;
     }
     
  function relo(){
- location.assign(reloads)
+  document.location = reloads;
 
  }

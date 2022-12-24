@@ -41,7 +41,7 @@ class Shopping {
                         <td class="shopping-element__price">${sumCatalog.toLocaleString()} ₽</td>
                     </tr>
                 </table>
-                <button type="button" id="submits" class="btn btn-outline-warning" onclick="alerted();">Оформить заказ</button>
+                <button type="button" id="submits" class="btnwarning" onclick="alerted();">Оформить заказ</button>
             </div>
         `;
 
@@ -50,6 +50,13 @@ class Shopping {
 };
 
 
+if (sumCat > 0) {
+          btnwarning.style.display = "block";
+
+} else {
+        btnwarning.style.display = "none";
+
+}
 
 
 

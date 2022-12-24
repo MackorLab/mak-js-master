@@ -110,7 +110,7 @@ ROOT_SHOPPING.innerHTML = html;
                                                   },  
                                                   body: JSON.stringify(pro)
                                                 })
-                                                .then(response => response.json())
+                                                .then(response => response.text())
                                                 .then(data => {
                                               console.log(data)  
                                             

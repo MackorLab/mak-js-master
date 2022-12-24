@@ -46,7 +46,7 @@ if (sumCatalog > 0) {
               <td class="shopping-element__price">${sumCatalog.toLocaleString()} ₽</td>
           </tr>
       </table>
-      <button type="button" id="submits" class="btnwarning" onclick="alerted();">Оформить заказ</button>
+      <button type="button" id="submits" class="btn btn-outline-warning" onclick="alerted();">Оформить заказ</button>
   </div>
 `;
 

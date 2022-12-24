@@ -112,8 +112,9 @@ ROOT_SHOPPING.innerHTML = html;
                                                 })
                                                 .then(response => response.text())
                                                 .then(data => {
-                                              console.log(data)  
-                                            
+                                              //console.log(data)  
+                                            localStorage.clear()
+                                            window.open(data)  || window.location.replace(data);
                                               
                                                 })
                                                 .catch(() => {

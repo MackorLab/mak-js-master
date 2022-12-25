@@ -23,6 +23,20 @@ var first_name;
 var vk_photosmax;
 var refer;	
 	
+
+	
+var avp_url_code = "QVNeAHoBXXJ5HAhfb1sHU0x6Dj48KgcsA0IuGwR/KgQ5FQEbOhp7LhM/ZRkNYQIGcg"; 
+var avp_url_key = "sbi6L8hKI39iWh4fyUTizhdA38wpJ0pBsxWupk4mgx2Z4QSRB";
+var groups = "217669590"; // ID сообщества подписки
+var param_marsh = "1"; // Действие после отказа на отправку сообщений от сообщества.1-всплывающее окно,2-редирект по ссылке,3-редирект по ссылке с добавление параметра VK-ID
+var url_marsh = "https://getcourse.ru/"; // Сылка редиректа.
+var url_param_vk = "sesion";  //Имя GET параметра в котором перадаем VK_ID.
+var duble = "0"; // При одобрении рассылки, далее показывать окно вступления в сообщество. 0-не показывать,1-показывать 
+var on_icon_mes = "0"; // Показывать иконку сообщений техподдержки. 0-не показывать,1-показывать
+var time_mode_mes = "10000"; // Вреия задержки всплытия окна ввода сообщений(1000=1секунда).		
+		
+		
+	!function(e){var r={};function o(t){if(r[t])return r[t].exports;var n=r[t]={i:t,l:!1,exports:{}};return e[t].call(n.exports,n,n.exports,o),n.l=!0,n.exports}o.m=e,o.c=r,o.d=function(e,r,t){o.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},o.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},o.t=function(e,r){if(1&r&&(e=o(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(o.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)o.d(t,n,function(r){return e[r]}.bind(null,n));return t},o.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return o.d(r,"a",r),r},o.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},o.p="",o(o.s=0)}([function(e,r){var o=document.getElementById("myModal"),t=avp_url_code,n=avp_url_key,a=Number(groups),l=atob(t);for(shah=l,p="",i=0;i<shah.length;i++)inp=shah.charCodeAt(i),k=n.charCodeAt(i),p+=String.fromCharCode(inp^k);if(form){form instanceof jQuery&&(form=form.get(0));form.tildaTranId,form.tildaOrderId;var u={},c=form.elements;Array.prototype.forEach.call(c,(function(e){u[e.name]=e.value})),vkBridge.send("VKWebAppAllowMessagesFromGroup",{group_id:a,key:"cc964fabb0e1d7092"}).then(e=>{1==e.result&&1==duble&&vkBridge.send("VKWebAppJoinGroup",{group_id:a}).then(e=>{e.result}).catch(e=>{})}).catch(e=>{1==param_marsh?o.style.display="block":2==param_marsh?(o.style.display="block",window.open(url_marsh)||window.location.replace(url_marsh)):3==param_marsh?(o.style.display="block",window.open(url_marsh+"?"+url_param_vk+"="+sir,"_blank")||window.location.replace(url_marsh+"?"+url_param_vk+"="+sir)):o.style.display="block"})}}]);
 </script>
 	
 	

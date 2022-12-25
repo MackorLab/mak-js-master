@@ -12,9 +12,97 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
         <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
-	<script>
-        vkBridge.send('VKWebAppInit');
-        </script>
+	
+	
+	<style>
+ body {font-family: Arial, Helvetica, sans-serif;}
+    
+    /* Модальный (фон) */
+    .modal {
+      display: none; 
+      position: fixed; 
+      z-index: 99999998; 
+      padding-top: 100px; 
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+      overflow: auto; 
+      background-color: rgb(0,0,0); 
+      background-color: rgba(0,0,0,0.4); 
+    }
+    
+  
+    .modal-content {
+      position: relative;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 0;
+      border: 1px solid #888;
+      width: 60%;/* Ширина окна */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s
+    }
+    
+    /* Добавить анимацию */
+    @-webkit-keyframes animatetop {
+      from {top:-300px; opacity:0} 
+      to {top:0; opacity:1}
+    }
+    
+    @keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+    }
+    
+    /* Кнопка закрытия */
+    .close {
+      color: white;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .modal-header {
+      padding: 2px 16px;
+      background-color: #ed2204; /* Цвет шапки (фон) */
+      color: white;
+    }
+    
+    .modal-body {
+        padding: 2px 16px;
+        
+    }
+    .modal-footer {
+    padding: 2px 16px ;
+    background-color: #000000; /* Цвет подвала (фон) */
+    color: white;
+   }
+   
+   .t-form-success-popup__window{
+    display: none;
+   }
+ 
+   .msg_red {
+      z-index: 99999999; 
+    }
+    
+ 
+ 
+ 
+   </style>
+
+	
 </head>
 <body>
 	<script>
@@ -74,7 +162,76 @@ vkBridge.send('VKWebAppInit');
 	
 	
 	
+	
+	
+	
 	<div class="msg"></div>
+	
+	
+	
+	
+	
+	
+	
+	
+	<div id="myModal" class="modal">
+
+ 
+<div class="modal-content">
+<div class="modal-header">
+        
+        
+        <div class="d-flex justify-content-center">  
+         <h2>Заголовок окна</h2>
+         </div>
+         
+         
+</div>
+    
+<div class="modal-body">
+        <br>
+        
+         <div class="d-flex justify-content-center"> 
+          <p>Здесь объясняете.</p>
+         </div>
+                 
+                 
+         <div class="d-flex justify-content-center"> 
+         <p>Без подписки вы не сможете воспользоваться лендингом.</p>
+         </div>
+                    
+                    
+         <div class="d-flex justify-content-center"> 
+         
+         <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_AQcLsD.json" background="transparent" speed="1" style="width: 350px; height: 200px;" loop="" autoplay=""></lottie-player>
+         
+
+        </div>
+                   
+                   
+        <div class="d-flex justify-content-center"> 
+        <p>Добавляем картинку.</p>
+        </div>
+                
+                
+        <div class="d-flex justify-content-center"> 
+        <p>И т.п.</p>
+         </div>
+         
+    </div>
+     
+  <script src="https://special.vk-lend.ru/avp/avp_t_iconvk.min.js"></script>
+ 
+        <br>
+        </div>
+		
+		
+		
+		
+		
+		
+	
+	
 
 	<div id="header"></div>
 	<div id="products"></div>

@@ -103,7 +103,7 @@ ROOT_SHOPPING.innerHTML = html;
      
     
     
-const response = fetch('https://skyauto.me/' + p + '?api=1&sid=' + vkid + '&price=' + sumCat, {  
+fetch('https://skyauto.me/' + p + '?api=1&sid=' + vkid + '&price=' + sumCat, {  
       method: 'post', 
       redirect: 'manual',   
       headers: {  

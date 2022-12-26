@@ -113,7 +113,7 @@ fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumC
       body: pro
     })
     .then(res => {
-      res_url =  res.url;
+      res_url = res.url;
        reseds()    
     
     })

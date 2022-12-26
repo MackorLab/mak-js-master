@@ -109,7 +109,7 @@ fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumC
       headers: {  
         "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
       },  
-      body: JSON.stringify(pro)
+      body: pro
     })
     .then(res => {
       

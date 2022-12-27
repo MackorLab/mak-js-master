@@ -173,7 +173,7 @@ vkBridge.send('VKWebAppInit');
 	
 	
 	
-	<div class="msg"></div>
+	<div class="res_msg"></div>
 	
 	
 	
@@ -275,9 +275,18 @@ vkBridge.send('VKWebAppInit');
 	
 
 <script>
-	
+	var pro_d;
 	 function redirex(){
-	console.log("redirex");
+		pro_d = JSON.stringify(pro);
+		 
+		 
+	 $.post( "https://skyauto.me/cllbck/217669590/1683355/ZWFBcm0zYkNOZFJmVnJqOCtGWC90QT0?api=1",  {sid: vkid, price:sumCat, product: pro_d}, function( data ) {
+      $( '.res_msg' ).html( data );
+
+
+     
+
+           });
 	 
 	 }
 	

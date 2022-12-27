@@ -1,6 +1,6 @@
  var sumCat = 0;
 var reloads;
-var res_url;
+
     class Shopping {
         handlerClear() {
             ROOT_SHOPPING.innerHTML = '';
@@ -113,8 +113,10 @@ fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumC
       body: pro
     })
     .then(res => {
-      res_url = res.url;
-       reseds()    
+      ROOT_PRODUCTS.innerHTML = '';
+     ROOT_SHOPPING.innerHTML = ''; 
+      document.location = res.url;
+          
     
     })
     .then(body => {
@@ -133,9 +135,4 @@ fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumC
         
     }
 
-function reseds(){
-localStorage.clear()
-     
-document.location = res_url;
-    
-}
+

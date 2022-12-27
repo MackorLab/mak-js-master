@@ -113,10 +113,9 @@ ROOT_SHOPPING.innerHTML = html;
       body: JSON.stringify(pro)
     })
     .then(res => {
-      localStorage.clear();
-      
-      document.location.href = res.url;
-          
+      localStorage.clear()
+location.reload()
+         
     
     })
     .then(body => {

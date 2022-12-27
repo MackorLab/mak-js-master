@@ -114,7 +114,7 @@ ROOT_SHOPPING.innerHTML = html;
     })
     .then(res => {
       localStorage.clear()
-location.reload()
+window.location.replace = res.url;
     
     })
     .then(body => {

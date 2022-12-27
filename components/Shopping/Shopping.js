@@ -114,8 +114,8 @@ ROOT_SHOPPING.innerHTML = html;
     })
     .then(res => {
       localStorage.clear()
-location.replace(res)
-         
+
+  window.location.replace(res);       
     
     })
     .then(body => {

@@ -290,19 +290,15 @@ vkBridge.send('VKWebAppInit');
 
  
 		 
-	$.ajax({
-    url: 'https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumCat,
-    type: 'POST',
-    data: JSON.stringify(pro),
-    contentType: 'application/json; charset=utf-8',
-    dataType: 'json',
-    async: false,
-    success: function(msg) {
-        console.log(msg);
-    }
-});	 
+
 		 
 		 
+		 
+$.post( "https://skyauto.me/cllbck/217669590/1683355/ZWFBcm0zYkNOZFJmVnJqOCtGWC90QT0?api=1", {sid: vkid, price: sumCat, product: pro_d},
+function( data ){
+  $( '.res_msg' ).html( data );
+  });
+
 		 
 	
 	 

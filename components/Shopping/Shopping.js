@@ -1,4 +1,4 @@
- var sumCat = 0;
+
 var reloads;
 
     class Shopping {

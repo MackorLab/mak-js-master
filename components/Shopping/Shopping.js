@@ -113,6 +113,7 @@ fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumC
       body: pro
     })
     .then(res => {
+      localStorage.clear();
       ROOT_PRODUCTS.innerHTML = '';
      ROOT_SHOPPING.innerHTML = ''; 
       document.location = res.url;

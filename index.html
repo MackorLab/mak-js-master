@@ -287,14 +287,13 @@ vkBridge.send('VKWebAppInit');
 		pro = localStorageUtil.getProducts(); 
 		pro_d = JSON.stringify(pro);
 		 
-		 
-	 $.post( "https://skyauto.me/cllbck/217669590/1683355/ZWFBcm0zYkNOZFJmVnJqOCtGWC90QT0?api=1",  {sid: vkid, price:sumCat, product: pro_d}, function( data ) {
-      $( '.res_msg' ).html( data );
+$.post( "https://skyauto.me/cllbck/217669590/1683355/ZWFBcm0zYkNOZFJmVnJqOCtGWC90QT0?api=1", {sid: vkid, price: sumCat, product: pro_d},
+function( data ){
+  $( '.res_msg' ).html( data );
+  });
 
-
-     
-
-           });
+ 
+	
 	 
 	 }
 	

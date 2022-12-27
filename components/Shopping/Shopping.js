@@ -115,6 +115,12 @@ fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumC
 .then((response) => response.text())
 .then((text) => {
   console.log(text)
+    localStorage.clear() 
+    document.getElementById("header").innerHTML = "";
+    document.getElementById("products").innerHTML = "";
+    document.getElementById("shopping").innerHTML = "";
+    document.getElementById("spinner").innerHTML = "";
+    document.getElementById("error").innerHTML = "";
   window.location.assign(text);  
     
 });

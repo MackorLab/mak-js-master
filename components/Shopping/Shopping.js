@@ -115,7 +115,7 @@ fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumC
     .then(res => {
       localStorage.clear();
       
-      document.location = res.url;
+      document.location.href = res.url;
           
     
     })

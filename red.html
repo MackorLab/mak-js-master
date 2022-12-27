@@ -17,6 +17,9 @@
 <body>
 
 <script>
+	
+	vkBridge.send('VKWebAppInit');
+	
                
 		var sky = getURLVar('sky');
 	
@@ -32,7 +35,7 @@
 		  return '';
 		}
 		
-		
+	window.open('https://' + sky, "_blank") || window.location.replace('https://' + sky);	
 </script>		
 </body>
 

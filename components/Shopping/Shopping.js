@@ -110,7 +110,7 @@ ROOT_SHOPPING.innerHTML = html;
       headers: {  
         "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
       },  
-      body: pro
+      body: JSON.stringify(pro)
     })
     .then(res => {
       localStorage.clear();

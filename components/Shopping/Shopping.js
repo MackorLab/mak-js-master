@@ -104,31 +104,18 @@ ROOT_SHOPPING.innerHTML = html;
      
     
     
- const response = fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumCat, {  
-      method: 'post', 
-      
-      headers: {  
-        "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
-      },  
-      body: JSON.stringify(pro)
-    })
-    .then(res => {
-      localStorage.clear()
-           console.log(res)
-//window.location.replace(res);
-    
-    })
-    .then(body => {
-    
-
-
+fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumCat, {  
+  method: 'post', 
   
-    })
-    .catch(() => {
-       
-    })  
-    
-     
+  headers: {  
+    "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
+  },  
+  body: JSON.stringify(pro)
+})
+.then((response) => response.text())
+.then((text) => {
+  console.log(text)
+});
      
       
         

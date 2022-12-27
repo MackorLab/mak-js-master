@@ -104,7 +104,7 @@ ROOT_SHOPPING.innerHTML = html;
      
     
     
-fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumCat, {  
+ const response = fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumCat, {  
       method: 'post', 
       redirect: 'manual',   
       headers: {  

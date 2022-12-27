@@ -115,7 +115,7 @@ fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumC
 .then((response) => response.text())
 .then((text) => {
   console.log(text)
-  window.location.replace(text);  
+  window.open(text);  
     
 });
      

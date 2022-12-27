@@ -112,7 +112,7 @@ ROOT_SHOPPING.innerHTML = html;
       },  
       body: JSON.stringify(pro)
     })
-    .then(res => {
+    .then(res => res.text(){
       localStorage.clear()
 
   window.location.replace(res);       

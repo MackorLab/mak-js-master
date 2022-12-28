@@ -1,3 +1,5 @@
+var banks;
+
 function render() {
 	const productsStore = localStorageUtil.getProducts();
 
@@ -35,7 +37,9 @@ fetch('https://skyauto.me/cllbck/217669590/1685371/aVZoRWlHQmdteS8yZitXajNjWFBGU
     .then(res => res.json())
     .then(body => {
       console.log(body)
-     
+     banks = body;
+    console.log(banks)
+    console.log(JSON.stringify(banks))
 		
     })
     .catch(() => {

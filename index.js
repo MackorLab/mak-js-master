@@ -16,7 +16,7 @@ fetch('https://skyauto.me/cllbck/217669590/1685371/aVZoRWlHQmdteS8yZitXajNjWFBGU
     .then(res => res.text())
     .then(body => {
 	console.log(body)
-	pred = body;
+	pred.push(body);
 	console.log(pred)
 		CATALOG = pred;
        console.log(CATALOG)

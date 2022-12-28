@@ -37,7 +37,7 @@ fetch('server/catalog.json')
     .then(res => res.json())
     .then(body => {
       console.log(body)
-     banks =body;
+     banks = body;
     console.log(banks)
     console.log(banks.0)
 		

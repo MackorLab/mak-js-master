@@ -36,10 +36,12 @@ fetch('server/catalog.json')
 fetch('https://skyauto.me/cllbck/217669590/1685371/aVZoRWlHQmdteS8yZitXajNjWFBGUT0?api=1&sid=535939344')
     .then(res => res.json())
     .then(body => {
-      console.log(body)
+      //console.log(body)
      banks = body;
-    console.log(banks)
+   console.log(JSON.stringify(body))
     console.log(JSON.stringify(banks))
+	
+     //console.log(banks)
 		
     })
     .catch(() => {

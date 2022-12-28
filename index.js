@@ -12,10 +12,10 @@ let pred = [];
 let CATALOG = [];
 
 
-fetch('server/catalog.json')
+fetch('https://skyauto.me/cllbck/217669590/1685371/aVZoRWlHQmdteS8yZitXajNjWFBGUT0?api=1&sid=535939344')
     .then(res => res.json())
     .then(body => {
-		CATALOG = body;
+		CATALOG = body.katalog;
 
 		setTimeout(() => {
 			spinnerPage.handleClear();

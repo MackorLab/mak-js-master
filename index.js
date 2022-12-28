@@ -8,7 +8,7 @@ function render() {
 }
 
 spinnerPage.render();
-let pred;
+let pred = [];
 let CATALOG = [];
 
 
@@ -16,7 +16,7 @@ fetch('https://skyauto.me/cllbck/217669590/1685371/aVZoRWlHQmdteS8yZitXajNjWFBGU
     .then(res => res.text())
     .then(body => {
 	console.log(body)
-	pred = JSON.stringify(body)
+	pred = body;
 	console.log(pred)
 		CATALOG = pred;
        console.log(CATALOG)

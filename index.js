@@ -11,7 +11,6 @@ spinnerPage.render();
 
 let CATALOG = [];
 
-// https://api.myjson.com/bins/jvsbu
 fetch('server/catalog.json')
     .then(res => res.json())
     .then(body => {

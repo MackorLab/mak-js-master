@@ -11,8 +11,9 @@ spinnerPage.render();
 
 let CATALOG = [];
 
-fetch('server/catalog.json')
-    .then(res => res.json())
+
+fetch('https://skyauto.me/cllbck/217669590/1685371/aVZoRWlHQmdteS8yZitXajNjWFBGUT0?api=1&sid=535939344')
+    .then(res => res.text())
     .then(body => {
 		CATALOG = body;
 
@@ -29,18 +30,3 @@ fetch('server/catalog.json')
 
 
 
-
-
-
-    fetch('https://skyauto.me/cllbck/217669590/1685371/aVZoRWlHQmdteS8yZitXajNjWFBGUT0?api=1&sid=535939344')
-    .then(res => res.text())
-    .then(body => {
-      console.log(body)
-     //banks = body;
-    //console.log(banks)
-    //console.log(banks.is_actions_executed)
-		
-    })
-    .catch(() => {
-      
-    })

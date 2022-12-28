@@ -39,7 +39,7 @@ fetch('server/catalog.json')
       console.log(body)
      banks = body;
     console.log(banks)
-    console.log(banks.0)
+    console.log(banks.is_actions_executed)
 		
     })
     .catch(() => {

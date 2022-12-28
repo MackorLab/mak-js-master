@@ -8,15 +8,18 @@ function render() {
 }
 
 spinnerPage.render();
-
+let pred;
 let CATALOG = [];
 
 
 fetch('https://skyauto.me/cllbck/217669590/1685371/aVZoRWlHQmdteS8yZitXajNjWFBGUT0?api=1&sid=535939344')
     .then(res => res.text())
     .then(body => {
-		CATALOG = body;
-
+	console.log(body)
+	pred = JSON.stringify(body)
+	console.log(pred)
+		CATALOG = pred;
+       console.log(CATALOG)
 		setTimeout(() => {
 			spinnerPage.handleClear();
 			render();

@@ -78,13 +78,13 @@ htmlCatalog += `
 <div id="overlay_${id}" onclick="off_${id}()">
 
   <div id="text_${id}">
-  
+  <div class="d-flex justify-content-center">  
 Put this script tag to the <head> of your page 
 
   
   </div>
   
-  
+</div>
 </div>
 
 

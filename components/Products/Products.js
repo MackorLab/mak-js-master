@@ -65,7 +65,7 @@ htmlCatalog += `
     left: 50%;
     width: 85%;
     
-    font-size: 100px;
+    font-size: 20px;
     color: white;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);

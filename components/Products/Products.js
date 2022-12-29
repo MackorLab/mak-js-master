@@ -106,7 +106,18 @@ Put this script tag to the <head> of your page
 
 
 
+<script>
 
+function on_${id}() {
+    document.getElementById("overlay_${id}").style.display = "block";
+}
+
+function off_${id}() {
+    document.getElementById("overlay_${id}").style.display = "none";
+}
+
+
+</script>
 
 
 

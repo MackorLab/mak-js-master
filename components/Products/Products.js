@@ -75,7 +75,7 @@ htmlCatalog += `
 
 
 
-<div id="overlay_el1" onclick="off_${id}()">
+<div id="overlay_${id}" onclick="off_${id}()">
 
   <div id="text_${id}">
   
@@ -126,9 +126,7 @@ function off_${id}() {
 
 </script>
 
-`;
- 
-            
+`;       
             
             
             

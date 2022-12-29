@@ -86,9 +86,9 @@ htmlCatalog += `
 ></script>
 
 <!-- Put this script tag to the place, where the Article block will be -->
-<div id=${vkstu}></div>
+<div id="${vkstu}"></div>
 <script type="text/javascript">
-  VK.Widgets.Article(${vkstu}, ${vkstm});
+  VK.Widgets.Article("${vkstu}", "${vkstm}");
 </script>
   
 </div>

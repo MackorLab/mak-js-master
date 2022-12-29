@@ -87,10 +87,6 @@ Put this script tag to the <head> of your page
   
 </div>
 
-<div style="padding:20px">
-  <h2>Overlay with Text</h2>
-  <button onclick="on_${id}()">Turn on overlay effect</button>
-</div>
 
 
 
@@ -126,7 +122,8 @@ function off_${id}() {
 
 </script>
 
-`;       
+`;
+
             
             
             

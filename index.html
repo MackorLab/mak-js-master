@@ -291,6 +291,17 @@ vkBridge.send('VKWebAppInit');
   <script>
 	  
 </scrtpt>
-	  
+	<script>
+
+function on_${id}() {
+    document.getElementById("overlay_${id}").style.display = "block";
+}
+
+function off_${id}() {
+    document.getElementById("overlay_${id}").style.display = "none";
+}
+
+
+</script>  
 </body>
 </html>

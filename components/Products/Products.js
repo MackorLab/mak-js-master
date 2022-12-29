@@ -78,11 +78,19 @@ htmlCatalog += `
 <div id="overlay_${id}" onclick="off_${id}()">
 
   <div id="text_${id}">
-  <div class="d-flex justify-content-center">  
-Put this script tag to the <head> of your page 
-
-  
+<div class="card text-center">
+  <div class="card-header">
+    Featured
   </div>
+  <div class="card-body">
+    <h5 class="card-title">Специальный заголовок</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+   
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
   
 </div>
 </div>

@@ -23,7 +23,7 @@ class Products {
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
 
-        CATALOG.forEach(({ id, name, price, img }) => {
+        CATALOG.forEach(({ id, name, price, img, vkstu, vkstm }) => {
             let activeClass = '';
             let activeText = '';
 
@@ -78,19 +78,18 @@ htmlCatalog += `
 <div id="overlay_${id}" onclick="off_${id}()">
 
   <div id="text_${id}">
-<div class="card text-center">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Специальный заголовок</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-   
-  </div>
-  <div class="card-footer text-muted">
-    2 days ago
-  </div>
-</div>
+<!-- Put this script tag to the <head> of your page -->
+<script
+  type="text/javascript"
+  src="https://vk.com/js/api/openapi.js?168"
+  charset="windows-1251"
+></script>
+
+<!-- Put this script tag to the place, where the Article block will be -->
+<div id=${vkstu}></div>
+<script type="text/javascript">
+  VK.Widgets.Article(${vkstu}, ${vkstm});
+</script>
   
 </div>
 </div>

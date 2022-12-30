@@ -84,6 +84,18 @@ htmlCatalog += `
     overflow: scroll;
     padding: 2px 2px 2px 15px;
     background-color: #c091fa;
+    
+    
+    
+    border: 5px dotted #dc85ed;
+    width: 80%;
+    border-radius: 0px;
+    margin: 0 auto;
+    max-width: 600px;
+    -webkit-box-shadow: 5px 5px 8px 8px rgba(176, 14, 204, 0.44);
+    -moz-box-shadow: 5px 5px 8px 8px rgba(176, 14, 204, 0.44);
+    box-shadow: 5px 5px 8px 8px rgba(176, 14, 204, 0.44);
+    
    
 }
 

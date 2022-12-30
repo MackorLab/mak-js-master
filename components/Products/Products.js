@@ -87,12 +87,15 @@ htmlCatalog += `
     border-radius: 0px;
     margin: 0 auto;
     max-width: 600px;
-    box-shadow: linear-gradient(45deg, rgba(198,16,181,1) 22%, rgba(252,62,200,1) 85%);
+    
 }
 
 .container {
     padding: 2px 2px 2px 15px;
     background-color: #c091fa;
+    -webkit-box-shadow: 5px 5px 8px 8px rgba(176, 14, 204, 0.44);
+    -moz-box-shadow: 5px 5px 8px 8px rgba(176, 14, 204, 0.44);
+    box-shadow: 5px 5px 8px 8px rgba(176, 14, 204, 0.44);
 }
 
 .promo {

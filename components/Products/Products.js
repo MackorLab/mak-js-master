@@ -46,6 +46,7 @@ htmlCatalog += `
 
 <style>
 #overlay_${id}{
+overflow: scroll;
     position: fixed;
     display: none;
     width: 100%;
@@ -81,7 +82,7 @@ htmlCatalog += `
 <style>
 .coupon {
    
-   border: 2px ridge #dc85ed;
+   border: 4px ridge #dc85ed;
     width: 80%;
     border-radius: 0px;
     margin: 0 auto;

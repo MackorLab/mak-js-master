@@ -87,6 +87,7 @@ htmlCatalog += `
     border-radius: 0px;
     margin: 0 auto;
     max-width: 600px;
+    box-shadow: linear-gradient(45deg, rgba(198,16,181,1) 22%, rgba(252,62,200,1) 85%);
 }
 
 .container {

@@ -82,7 +82,7 @@ htmlCatalog += `
 
 
 .coupon {
-    border: 5px dotted #bbb;
+    border: 5px dotted #ac82f5;
     width: 80%;
     border-radius: 0px;
     margin: 0 auto;

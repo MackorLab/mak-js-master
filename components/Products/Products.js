@@ -80,7 +80,7 @@ htmlCatalog += `
   <div id="text_${id}">
 <style>
 .coupon {
-   overflow: scroll;
+   
    border: 2px ridge #dc85ed;
     width: 80%;
     border-radius: 0px;

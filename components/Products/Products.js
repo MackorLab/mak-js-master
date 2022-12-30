@@ -108,7 +108,7 @@ htmlCatalog += `
   <div class="container">
     <h3>Company Logo</h3>
   </div>
-  <img src="${img}" alt="Avatar" style="width:100%;">
+  <img src="https://i.ibb.co/bznN0Y5/11.png" alt="Avatar" style="width:100%;">
   <div class="container" style="background-color:white">
     <h2><b>20% OFF YOUR PURCHASE</b></h2> 
     <p>Lorem ipsum dolor sit amet, et nam pertinax gloriatur. Sea te minim soleat senserit, ex quo luptatum tacimates voluptatum, salutandi delicatissimi eam ea. In sed nullam laboramus appellantur, mei ei omnis dolorem mnesarchum.</p>

@@ -91,18 +91,17 @@ htmlCatalog += `
 
 .container {
     padding: 2px 16px;
-    background-color: #f1f1f1;
+    background-color: #c091fa;
 }
 
 .promo {
-    background: #ccc;
+    background: #a247fc;
     padding: 3px;
 }
 
-.expire {
-    color: red;
-}
+
 </style>
+
 
 <div class="coupon">
   <div class="container">
@@ -111,13 +110,14 @@ htmlCatalog += `
   <img src="https://i.ibb.co/bznN0Y5/11.png" alt="Avatar" style="width:100%;">
   <div class="container" style="background-color:white">
     <h2><b>20% OFF YOUR PURCHASE</b></h2> 
-    <p>Lorem ipsum dolor sit amet, et nam pertinax gloriatur. Sea te minim soleat senserit, ex quo luptatum tacimates voluptatum, salutandi delicatissimi eam ea. In sed nullam laboramus appellantur, mei ei omnis dolorem mnesarchum.</p>
+    <p style="color:red;">Lorem ipsum dolor sit amet, et nam pertinax gloriatur. Sea te minim soleat senserit, ex quo luptatum tacimates voluptatum, salutandi delicatissimi eam ea. In sed nullam laboramus appellantur, mei ei omnis dolorem mnesarchum.</p>
   </div>
   <div class="container">
-    <p>Use Promo Code: <span class="promo">BOH232</span></p>
-    <p class="expire">Expires: Jan 03, 2017</p>
+    <p style="color:#ffffff;">Use Promo Code: <span class="promo">BOH232</span></p>
+    <p style="color:red;">Expires: Jan 03, 2017</p>
   </div>
 </div>
+
  
  
  

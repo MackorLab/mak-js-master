@@ -23,7 +23,7 @@ class Products {
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
 
-        CATALOG.forEach(({ id, name, price, img}) => {
+        CATALOG.forEach(({ id, name, price, img, uplog}) => {
             let activeClass = '';
             let activeText = '';
 
@@ -105,7 +105,7 @@ htmlCatalog += `
 
 <div class="coupon">
   <div class="container">
-    <h3>Company Logo</h3>
+   ${uplog}
   </div>
   <img src="https://i.ibb.co/bznN0Y5/11.png" alt="Avatar" style="width:100%;">
   <div class="container" style="background-color:white">

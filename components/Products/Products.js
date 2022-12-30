@@ -84,13 +84,13 @@ htmlCatalog += `
 .coupon {
     border: 5px dotted #bbb;
     width: 80%;
-    border-radius: 15px;
+    border-radius: 0px;
     margin: 0 auto;
     max-width: 600px;
 }
 
 .container {
-    padding: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 15px;
     background-color: #c091fa;
 }
 

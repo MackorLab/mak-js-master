@@ -82,7 +82,7 @@ overflow: scroll;
 <style>
 .coupon {
    
-   border: 4px ridge #dc85ed;
+   border: 5px ridge #dc85ed;
     width: 80%;
     border-radius: 0px;
     margin: 0 auto;

@@ -23,7 +23,7 @@ class Products {
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
 
-        CATALOG.forEach(({ id, name, price, img, vkstu, vkstm }) => {
+        CATALOG.forEach(({ id, name, price, img}) => {
             let activeClass = '';
             let activeText = '';
 

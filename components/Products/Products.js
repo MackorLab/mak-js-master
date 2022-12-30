@@ -90,7 +90,7 @@ htmlCatalog += `
 }
 
 .container {
-    padding: 2px 16px;
+    padding: 2px 2px 2px 2px;
     background-color: #c091fa;
 }
 

@@ -100,6 +100,25 @@
    }
 	
 		
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 14px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+	
+		
 		
  
    </style>
@@ -239,6 +258,25 @@ vkBridge.send('VKWebAppInit');
 	
 
 	<div id="header"></div>
+	
+	
+	 
+             <div id="myBtnContainer">       
+                    
+                     <button class="btn active" onclick="filterSelection('all')"> Показать всё</button>
+                     <button class="btn" onclick="filterSelection('sytetld')"> Создание сайта</button>
+                     <button class="btn" onclick="filterSelection('ukrashvk')"> Украшение аккаунта ВК</button>
+                   
+                    
+                </div>    
+                    
+                    
+                    
+	
+	
+	
+	
+	
 	<div id="products"></div>
 	<div id="shopping"></div>
 	<div id="spinner"></div>

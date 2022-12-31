@@ -23,7 +23,7 @@ class Products {
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
 
-        CATALOG.forEach(({ id, name, price, img, uplog}) => {
+        CATALOG.forEach(({ id, name, price, img, sortir, uplog}) => {
             let activeClass = '';
             let activeText = '';
 
@@ -135,7 +135,7 @@ overflow: scroll;
 
 
 
-<li class="products-element">
+<li class="products-element ${sortir}">
 	<span class="products-element__name">${name}</span>
 	<img onclick="on_${id}()" class="products-element__img" src="${img}" />
 	<span class="products-element__price">

@@ -8,7 +8,7 @@ class Spinner {
         	<div class="spinner-container">
             
             
-         <div class="loader"></div>
+         
           <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_d29eunxw.json" background="transparent" speed="1" style="width: 140px; height: 140px;" loop="" autoplay=""></lottie-player>  
             
             

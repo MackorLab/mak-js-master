@@ -13,6 +13,18 @@
 
 }
 
+.products-element {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 25px 20px;
+	border-radius: var(--border-radius);
+	background-color: var(--color-white);
+	box-shadow: 0 4px 8px 0 rgb(82, 6, 196);
+
+
+}
 
 
 

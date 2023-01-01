@@ -30,4 +30,16 @@ fetch('https://skyauto.me/cllbck/217669590/1685371/aVZoRWlHQmdteS8yZitXajNjWFBGU
 
 
 
+const htmlbtn = `
+               <div id="myBtnContainer">       
+                    
+                     <button class="btn active" onclick="filterSelection()"> Показать всё</button>
+                     <button class="btn" onclick="filter()"> Создание сайта</button>
+                     <button class="btn" onclick="filterSelection()"> Украшение аккаунта ВК</button>
+                   
+                    
+                </div>    
+                    
+        `;
 
+        ROOT_BTN.innerHTML = htmlbtn;

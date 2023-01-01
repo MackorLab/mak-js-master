@@ -97,6 +97,19 @@ ROOT_SHOPPING.innerHTML = html;
     
     function alerted(){
      spinnerPage.render();
+        
+        
+        document.getElementById("header").innerHTML = "";
+    document.getElementById("products").innerHTML = "";
+    document.getElementById("shopping").innerHTML = "";
+    document.getElementById("spinner").innerHTML = "";
+    document.getElementById("error").innerHTML = ""; 
+        
+        
+        
+        
+        
+        
        var pro = localStorageUtil.getProducts(); 
      
        //console.log(pro)
@@ -116,11 +129,7 @@ fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumC
 .then((text) => {
   console.log(text)
     localStorage.clear() 
-    document.getElementById("header").innerHTML = "";
-    document.getElementById("products").innerHTML = "";
-    document.getElementById("shopping").innerHTML = "";
-    document.getElementById("spinner").innerHTML = "";
-    document.getElementById("error").innerHTML = "";
+   
     
   location.replace(text);  
   spinnerPage.handleClear();  

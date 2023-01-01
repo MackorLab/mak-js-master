@@ -43,7 +43,7 @@ class Products {
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
 
-        CATALOG.forEach(({ id, name, price, img, sortir, uplog}) => {
+        CATALOG.forEach(({ id, name, price, img, sortir, uplog, upimg}) => {
             let activeClass = '';
             let activeText = '';
 
@@ -128,7 +128,7 @@ overflow: scroll;
   <div class="container">
    ${uplog}
   </div>
-  <img src="https://i.ibb.co/bznN0Y5/11.png" alt="Avatar" style="width:100%;">
+  <img src="${upimg}" alt="Avatar" style="width:100%;">
   <div class="container" style="background-color:white">
     <h2 style="color:red;"><b>20% OFF YOUR PURCHASE</b></h2> 
     <p style="color:red;">Lorem ipsum dolor sit amet, et nam pertinax gloriatur. Sea te minim soleat senserit, ex quo luptatum tacimates voluptatum, salutandi delicatissimi eam ea. In sed nullam laboramus appellantur, mei ei omnis dolorem mnesarchum.</p>

@@ -7,11 +7,12 @@ class Spinner {
       const html = `
         <div class="spinner-container">
           
-          
+         <div class="box"> 
        
         <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_wsccbfdk.json" background="transparent" speed="1" style="width: 200px; height: 200px;" loop="" autoplay=""></lottie-player>
           
         </div>
+       </div>
       `;
 
       ROOT_SPINNER.innerHTML = html;

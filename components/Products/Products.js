@@ -42,7 +42,7 @@ class Products {
 
 htmlCatalog += `
 
-
+<li class="products-element ${sortir}">
 
 <style>
 #overlay_${id}{
@@ -135,7 +135,7 @@ overflow: scroll;
 
 
 
-<li class="products-element ${sortir}">
+
 	<span class="products-element__name">${name}</span>
 	<img onclick="on_${id}()" class="products-element__img" src="${img}" />
 	<span class="products-element__price">

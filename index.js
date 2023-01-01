@@ -34,7 +34,7 @@ const htmlbtn = `
                <div id="myBtnContainer">       
                     
                      <button class="btn active" onclick="filterob()"> Показать всё</button>
-                     <button class="btn" onclick="filters()"> Создание сайта</button>
+                     <button class="btn" onclick="filterst()"> Создание сайта</button>
                      <button class="btn" onclick="filtervk()"> Украшение аккаунта ВК</button>
                    
                     

@@ -8,7 +8,7 @@ class Spinner {
         	<div class="spinner-container">
             
             
-           <div class="loader"></div> 
+         <img class="spinner__img" src="components/Spinner/img/spinner.svg" />
             
             
             

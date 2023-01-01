@@ -391,7 +391,7 @@ function off_el6() {
 <script>
 
 function filter() {
-	 
+	 spinnerPage.render();
 	ROOT_PRODUCTS.innerHTML = "";
 function render() {
 	
@@ -414,7 +414,7 @@ fetch('https://skyauto.me/cllbck/217669590/1687857/Rkt6UEdJYW44MEJVQW9MazJZY0Vad
 		CATALOG = body.katalog;
 
 		setTimeout(() => {
-			spinnerPage.render();
+			spinnerPage.handleClear();
 			render();
 		}, 1000);
     })

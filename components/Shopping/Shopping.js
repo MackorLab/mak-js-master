@@ -121,9 +121,9 @@ fetch('https://skyauto.me/cllbck/' + p + '?api=1&sid=' + vkid + '&price=' + sumC
     document.getElementById("shopping").innerHTML = "";
     document.getElementById("spinner").innerHTML = "";
     document.getElementById("error").innerHTML = "";
-    spinnerPage.handleClear();
-  location.replace(text);  
     
+  location.replace(text);  
+  spinnerPage.handleClear();  
 });
      
       

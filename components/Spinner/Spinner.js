@@ -32,7 +32,7 @@ function myFunction(x) {
 
 
 
-
+const spinnerPage = new Spinner();
 
 
   } else {
@@ -70,7 +70,7 @@ function myFunction(x) {
 
 
 
-
+const spinnerPage = new Spinner();
 
 
   }
@@ -81,4 +81,4 @@ myFunction(x)
 x.addListener(myFunction) 
 
 
-const spinnerPage = new Spinner();
+

@@ -399,8 +399,10 @@ function off_el6() {
 <script>
 
 function filter() {
+	 localStorage.clear();
+	
 function render() {
-	ROOT_PRODUCTS.innerHTML = "";
+	
 	
 	
 	const productsStore = localStorageUtil.getProducts();

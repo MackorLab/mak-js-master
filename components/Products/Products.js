@@ -132,7 +132,7 @@ overflow: scroll;
     <p style="color:red;">Lorem ipsum dolor sit amet, et nam pertinax gloriatur. Sea te minim soleat senserit, ex quo luptatum tacimates voluptatum, salutandi delicatissimi eam ea. In sed nullam laboramus appellantur, mei ei omnis dolorem mnesarchum.</p>
   </div>
   <div class="container">
-    <p style="color:#ffffff;">Use Promo Code: <span class="promo">BOH232</span></p>
+    <p style="color:#ffffff;">Use Promo Code: <span class="promo">${price} ₽</span></p>
     
   </div>
 </div>

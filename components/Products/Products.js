@@ -71,7 +71,7 @@ htmlCatalog += `
     display: none;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    
     top: 0;
     left: 0;
     right: 0;
@@ -105,7 +105,7 @@ htmlCatalog += `
    
    border: 5px ridge #dc85ed;
     width: 80%;
-    height: 300px;
+    height: 600px;
     overflow: auto;
     border-radius: 0px;
     margin: 0 auto;

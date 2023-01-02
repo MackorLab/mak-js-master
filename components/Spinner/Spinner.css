@@ -22,6 +22,7 @@ background: linear-gradient(45deg, rgb(231, 44, 225) 36%, rgb(88, 82, 182));
 .box {
   border: 10px solid rebeccapurple;
   border-radius: 1em;
+ padding: 20px 20px 20px 20px;
  
 }
    

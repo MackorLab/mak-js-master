@@ -135,7 +135,7 @@ overflow: scroll;
   </div>
   <div class="container">
     <p style="color:#ffffff;">Use Promo Code: <span class="promo">BOH232</span></p>
-    <p style="color:red;">Expires: Jan 03, 2017</p>
+    
   </div>
 </div>
 

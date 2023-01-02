@@ -105,6 +105,8 @@ htmlCatalog += `
    
    border: 5px ridge #dc85ed;
     width: 80%;
+    height: 300px;
+    overflow: auto;
     border-radius: 0px;
     margin: 0 auto;
     max-width: 600px;

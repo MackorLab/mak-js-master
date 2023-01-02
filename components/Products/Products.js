@@ -137,13 +137,33 @@ htmlCatalog += `
 }
 
 
+#element::-webkit-scrollbar {
+  width: 10px;
+}
+
+#element::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+  border-radius: 10px;
+}
+
+#element::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+
+
+
+
+
 </style>
 
 
 <div class="coupon">
 
   <img src="${upimg}" alt="Avatar" style="width:100%;">
-  <div class="container_text" style="background-color:white">
+  <div id="element" class="container_text" style="background-color:white">
     <h3 style="color:#a247fc;"><b>${uplog}</b></h3> 
     <p style="color:#a247fc; font-size:14px;"> ${uptext}</p>
   </div>

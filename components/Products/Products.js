@@ -125,12 +125,10 @@ overflow: scroll;
 
 
 <div class="coupon">
-  <div class="container">
-   ${uplog}
-  </div>
+
   <img src="${upimg}" alt="Avatar" style="width:100%;">
   <div class="container" style="background-color:white">
-    <h2 style="color:red;"><b>20% OFF YOUR PURCHASE</b></h2> 
+    <h2 style="color:red;"><b>${uplog}</b></h2> 
     <p style="color:red;">Lorem ipsum dolor sit amet, et nam pertinax gloriatur. Sea te minim soleat senserit, ex quo luptatum tacimates voluptatum, salutandi delicatissimi eam ea. In sed nullam laboramus appellantur, mei ei omnis dolorem mnesarchum.</p>
   </div>
   <div class="container">

@@ -117,7 +117,7 @@ htmlCatalog += `
     
     padding: 2px 2px 2px 15px;
     background-color: #c091fa;
-    width: 80%;
+    width: 100%;
     height: 200px;
     overflow: auto;
     

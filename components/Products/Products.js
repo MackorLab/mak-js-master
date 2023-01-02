@@ -105,13 +105,26 @@ htmlCatalog += `
    
    border: 5px ridge #dc85ed;
     width: 80%;
-    height: 600px;
+    height: 100%;
     overflow: auto;
     border-radius: 0px;
     margin: 0 auto;
     max-width: 600px;
    
 }
+
+.container_text {
+    
+    padding: 2px 2px 2px 15px;
+    background-color: #c091fa;
+    width: 80%;
+    height: 200px;
+    overflow: auto;
+    
+    margin: 0 auto;
+    max-width: 600px;
+}
+
 .container {
     
     padding: 2px 2px 2px 15px;
@@ -130,7 +143,7 @@ htmlCatalog += `
 <div class="coupon">
 
   <img src="${upimg}" alt="Avatar" style="width:100%;">
-  <div class="container" style="background-color:white">
+  <div class="container_text" style="background-color:white">
     <h2 style="color:#a247fc;"><b>${uplog}</b></h2> 
     <p style="color:#a247fc; font-size:10px;"> ${uptext}</p>
   </div>

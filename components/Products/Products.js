@@ -104,7 +104,7 @@ htmlCatalog += `
 .coupon {
    
    border: 5px ridge #dc85ed;
-    width: 80%;
+    width: 90%;
     height: 100%;
     overflow: auto;
     border-radius: 0px;

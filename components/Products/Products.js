@@ -43,7 +43,7 @@ class Products {
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
 
-        CATALOG.forEach(({ id, name, price, img, sortir, uplog, upimg, uptext, uptext_pr}) => {
+        CATALOG.forEach(({ id, name, price, img, sortir, uplog, upimg, uptext, uptext_pr, uptext_ot}) => {
             let activeClass = '';
             let activeText = '';
 
@@ -148,7 +148,7 @@ htmlCatalog += `
     <p style="color:#a247fc; font-size:14px;"> ${uptext}</p>
   </div>
   <div class="container">
-    <p style="color:#ffffff;"> ${uptext_pr} <span class="promo"> ${price} ₽</span></p>
+    <p style="color:#ffffff;"> ${uptext_pr} <span class="promo">${uptext_ot} ${price} ₽</span></p>
     
   </div>
 </div>
@@ -173,7 +173,7 @@ htmlCatalog += `
 	<span class="products-element__name">${name}</span>
 	<img onclick="on_${id}()" class="products-element__img" src="${img}" />
 	<span class="products-element__price">
-		⚡️ ${price.toLocaleString()} ₽
+		⚡️${uptext_ot} ${price.toLocaleString()} ₽
 	</span>
 	<button class="products-element__btn${activeClass}" onclick="productsPage.handlerSetLocatStorage(this, '${id}');">
 		${activeText}

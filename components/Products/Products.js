@@ -144,8 +144,8 @@ htmlCatalog += `
 
   <img src="${upimg}" alt="Avatar" style="width:100%;">
   <div class="container_text" style="background-color:white">
-    <h2 style="color:#a247fc;"><b>${uplog}</b></h2> 
-    <p style="color:#a247fc; font-size:10px;"> ${uptext}</p>
+    <h3 style="color:#a247fc;"><b>${uplog}</b></h3> 
+    <p style="color:#a247fc; font-size:14px;"> ${uptext}</p>
   </div>
   <div class="container">
     <p style="color:#ffffff;"> ${uptext_pr} <span class="promo"> ${price} ₽</span></p>

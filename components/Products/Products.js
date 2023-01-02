@@ -84,7 +84,7 @@ overflow: scroll;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 85%;
+    width: 100%;
     
     font-size: 20px;
     color: white;

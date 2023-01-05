@@ -36,7 +36,7 @@ const htmlbtn = `
                      <button class="btn active" onclick="filterob()"> Показать всё</button>
                      <button class="btn" onclick="filterst()"> Разработка сайтов</button>
                      <button class="btn" onclick="filtervk()"> Упаковка соц.сетей [SMM]</button>
-                   
+                    <button class="btn" onclick="filteravt()"> Об авторе</button>
                     
                 </div>    
                     

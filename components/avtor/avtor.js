@@ -1,21 +1,18 @@
-class Header {
-    handlerOpenShoppingPage() {
-        shoppingPage.render();
-    }
 
-    render(count) {
+
+class Avtor {
+    render() {
         const html = `
-            <div class="header-container">
-                <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
-                    <a class="header-icon"><img src="https://i.ibb.co/xjQM8kr/shoppingcart-to-compra-12829.png" alt="shoppingcart" border="0"></a> ${count}
-                    
-              
+        	<div class="error-container">
+                <div class="error-message">
+                    <h3>Нет доступа!</h3>
+                    <p>Попробуйти зайти позже</p>
                 </div>
-            </div>
+        	</div>
         `;
 
-        ROOT_HEADER.innerHTML = html;
+        ROOT_AVTOR.innerHTML = html;
     }
-};
+}
 
-const headerPage = new Header();
+const avtorPage = new Avtor();

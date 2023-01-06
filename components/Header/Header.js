@@ -9,25 +9,30 @@ class Header {
             
             
             
-              <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn"> Выпадающий</button>
-          <div id="myDropdown" class="dropdown-content">
-            <a onclick="myFunctio1n()">Главная</a>
-          <a onclick="filteravt()">О Нас</a>
-        <a onclick="myFunction3()">Контакты</a>
-     </div>
-    </div>
+  
             
-            
-            
-            
-            
-            
-                <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
+                 <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
                     <a class="header-icon"><img src="https://i.ibb.co/xjQM8kr/shoppingcart-to-compra-12829.png" alt="shoppingcart" border="0"></a> ${count}
                  </div>
                 
-                
+               
+               
+               
+               
+                 <div id="myBtnContainer">       
+                   
+                     <button class="btn active" onclick="filterob()"> Показать всё</button>
+                     <button class="btn" onclick="filterst()"> Разработка сайтов</button>
+                     <button class="btn" onclick="filtervk()"> Упаковка соц.сетей [SMM]</button>
+                    <button class="btn" onclick="filteravt()"> Об авторе 🔍 </button>
+		    
+                    
+                </div>  
+               
+               
+               
+               
+               
                 
                 
   

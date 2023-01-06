@@ -10,6 +10,7 @@
 	transform: translate(-50%, -50%);
 	background-color: var(--color-white);
 	box-shadow: var(--box-shadow);
+	 z-index: 99999997; 
 }
 .shopping-element__name {
 	padding: var(--spacing-medium);

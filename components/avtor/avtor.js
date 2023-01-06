@@ -43,8 +43,10 @@ class Avtor {
 
 
 
-<div class="row">
- 
+
+ <div class="row">
+  <div class="col-1"> </div>
+  <div class="col-10">
   
   
   
@@ -57,10 +59,12 @@ class Avtor {
                  <div id="playlist_container"></div>
 <br>
 
+
+
+
 </div>
-
-
-
+  <div class="col-1"> </div>
+</div>
 
 
 

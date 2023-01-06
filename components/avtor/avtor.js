@@ -6,6 +6,7 @@ class Avtor {
         	<div class="avtor-container">
                 <div class="avtor-message">
                 <h3 id="blink1">Внимание тестируем плейер!</h3>
+                <br>
                  <div id="player"></div>
 
 

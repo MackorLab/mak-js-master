@@ -38,6 +38,12 @@ class Avtor {
   </a>
 </div>
 
+
+
+</div>
+
+
+
  <div class="avtor-message">
 <br>
 
@@ -63,7 +69,7 @@ class Avtor {
 
 
                     
-                </div>
+                
         	</div>
         `;
 

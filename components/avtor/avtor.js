@@ -4,7 +4,7 @@ class Avtor {
     render() {
         const html = `
         	<div class="avtor-container">
-                <div class="avtor-message">
+               
             
                 
 
@@ -38,7 +38,7 @@ class Avtor {
   </a>
 </div>
 
-
+ <div class="avtor-message">
 <br>
 
     <h3 id="blink1">Внимание плеер в режиме тестирования!</h3>

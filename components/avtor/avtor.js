@@ -49,9 +49,9 @@ class Avtor {
   
   
 <br>
-
+ <div class="d-flex justify-content-center"> 
     <h3 id="blink1">Внимание плеер в режиме тестирования!</h3>
-
+</div>
 <br>
                  <div id="player1"></div>
                  <div id="playlist_container"></div>

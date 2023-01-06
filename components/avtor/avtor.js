@@ -5,8 +5,9 @@ class Avtor {
         const html = `
         	<div class="error-container">
                 <div class="error-message">
-                    <h3>Тестируем </h3>
-                    <p>плейер!</p>
+                <h3 id="blink1">Внимание тестируем </h3>
+                    <h3>плейер!</h3>
+                  
                     
                     
                     <div id="player"></div>

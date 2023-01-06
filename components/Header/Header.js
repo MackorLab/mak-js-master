@@ -11,7 +11,23 @@ class Header {
                     
               
                 </div>
-                 <span class="context-menu-one btn btn-neutral">right click me</span>
+                
+                
+                
+                
+                 <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"> Выпадающий</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a onclick="myFunctio1n()">Главная</a>
+    <a onclick="myFunction2()">О Нас</a>
+    <a onclick="myFunction3()">Контакты</a>
+  </div>
+</div>
+
+
+
+
+
             </div>
         `;
 

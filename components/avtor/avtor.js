@@ -40,7 +40,8 @@ class Avtor {
 
 
 
-</div>
+
+
 
 <div class="row">
  
@@ -57,6 +58,18 @@ class Avtor {
 <br>
 
 </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
   
   
   

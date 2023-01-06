@@ -19,7 +19,7 @@ class Header {
   <button onclick="myFunction()" class="dropbtn"> Выпадающий</button>
   <div id="myDropdown" class="dropdown-content">
     <a onclick="myFunctio1n()">Главная</a>
-    <a onclick="myFunction2()">О Нас</a>
+    <a onclick="filteravt()">О Нас</a>
     <a onclick="myFunction3()">Контакты</a>
   </div>
 </div>

@@ -42,9 +42,11 @@ class Avtor {
 
 </div>
 
-
-
- <div class="avtor-message">
+<div class="row">
+ 
+  
+  
+  
 <br>
 
     <h3 id="blink1">Внимание плеер в режиме тестирования!</h3>
@@ -52,25 +54,18 @@ class Avtor {
 <br>
                  <div id="player1"></div>
                  <div id="playlist_container"></div>
-
-
-
-
-
 <br>
 
+</div>
+  
+  
+  
+  
+ 
+ 
 
 
 
-
-
-
-
-
-
-                    
-                
-        	</div>
         `;
 
         ROOT_AVTOR.innerHTML = html;

@@ -32,7 +32,7 @@ fetch('https://skyauto.me/cllbck/217669590/1685371/aVZoRWlHQmdteS8yZitXajNjWFBGU
 
 const htmlbtn = `
                <div id="myBtnContainer">       
-                    <span class="context-menu-one btn btn-neutral">right click me</span>
+                   
                      <button class="btn active" onclick="filterob()"> Показать всё</button>
                      <button class="btn" onclick="filterst()"> Разработка сайтов</button>
                      <button class="btn" onclick="filtervk()"> Упаковка соц.сетей [SMM]</button>

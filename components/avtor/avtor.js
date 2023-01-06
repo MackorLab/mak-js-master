@@ -3,8 +3,8 @@
 class Avtor {
     render() {
         const html = `
-        	<div class="error-container">
-                <div class="error-message">
+        	<div class="avtor-container">
+                <div class="avtor-message">
                 <h3 id="blink1">Внимание тестируем </h3>
                     <h3>плейер!</h3>
                   

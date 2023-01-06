@@ -5,17 +5,8 @@ class Avtor {
         const html = `
         	<div class="avtor-container">
                 <div class="avtor-message">
-                <h3 id="blink1">Внимание тестируем плейер!</h3>
-                <br>
-                 <div id="player1"></div>
-                 <div id="playlist_container"></div>
-
-
-
-
-
-<br>
-
+            
+                
 
 
 
@@ -48,10 +39,19 @@ class Avtor {
 </div>
 
 
+<br>
+
+    <h3 id="blink1">Внимание плеер в режиме тестирования!</h3>
+
+<br>
+                 <div id="player1"></div>
+                 <div id="playlist_container"></div>
 
 
 
 
+
+<br>
 
 
 

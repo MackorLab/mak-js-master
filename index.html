@@ -477,12 +477,16 @@ function filteravt() {
 	ROOT_PRODUCTS.innerHTML = "";
 
 	
-	
+	avtorPage.render();
 	
 	function timav() {
  spinnerPage.handleClear();
 	
-	avtorPage.render();
+	
+		
+   var player = new Playerjs({id:"player", file:"https://www.youtube.com/watch?v=uEQGUT7aKDg"});
+
+		
 }
 
 setTimeout(timav, 1000);

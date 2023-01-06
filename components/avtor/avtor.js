@@ -12,7 +12,7 @@ class Avtor {
                     <div id="player"></div>
 
 <script>
-   var player = new Playerjs({id:"player", file:"//site.com/video.mp4"});
+   var player = new Playerjs({id:"player", file:"https://www.youtube.com/watch?v=uEQGUT7aKDg"});
 </script>
                     
                 </div>

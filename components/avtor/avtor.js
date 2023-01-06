@@ -5,12 +5,8 @@ class Avtor {
         const html = `
         	<div class="avtor-container">
                 <div class="avtor-message">
-                <h3 id="blink1">Внимание тестируем </h3>
-                    <h3>плейер!</h3>
-                  
-                    
-                    
-                    <div id="player"></div>
+                <h3 id="blink1">Внимание тестируем плейер!</h3>
+                 <div id="player"></div>
 
 
                     

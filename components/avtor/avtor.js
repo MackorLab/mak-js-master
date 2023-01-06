@@ -5,8 +5,16 @@ class Avtor {
         const html = `
         	<div class="error-container">
                 <div class="error-message">
-                    <h3>Нет доступа!</h3>
-                    <p>Попробуйти зайти позже</p>
+                    <h3>Тестируем </h3>
+                    <p>плейер!</p>
+                    
+                    
+                    <div id="player"></div>
+
+<script>
+   var player = new Playerjs({id:"player", file:"//site.com/video.mp4"});
+</script>
+                    
                 </div>
         	</div>
         `;

@@ -135,7 +135,7 @@ class Avtor {
 
 
 
-<div class="row">
+<div class="row" style="height: calc(100%)">
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">

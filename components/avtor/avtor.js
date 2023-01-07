@@ -51,10 +51,7 @@ class Avtor {
   
   
 
- <div class="d-flex justify-content-center"> 
 
-   
-</div>
 <br>
                  <div id="player1"></div>
                  <div id="playlist_container"></div>

@@ -10,7 +10,7 @@ class Header {
   
             
             <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn"> Меню</button>
+  <button onclick="myFunction()" class="btn btn-outline-success"> Меню</button>
   <div id="myDropdown" class="dropdown-content">
     <a onclick="filterob()"> Показать всё</a>
     <a onclick="filterst()"> Разработка сайтов</a>

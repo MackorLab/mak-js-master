@@ -20,13 +20,13 @@ class Header {
                
                
  
-        <a class="nav-link" >Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" onclick="filterob()" Показать всё></a>
     
-        <a class="nav-link" >Features</a>
+        <a class="nav-link" onclick="filterst()"> Разработка сайтов</a>
      
         <a class="nav-link" >Pricing</a>
    
-        <a class="nav-link disabled" >Disabled</a>
+        <a class="nav-link disabled" onclick="filteravt()"> Об авторе 🔍 </a>
     
                
                

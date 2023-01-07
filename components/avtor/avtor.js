@@ -90,16 +90,9 @@ class Avtor {
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
-  <div class="card bg-primary text-white text-center p-3">
-    <blockquote class="blockquote mb-0">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-      <footer class="blockquote-footer">
-        <small>
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
-  </div>
+<div class="card">
+  <img class="card-img-top" src="https://sun9-3.userapi.com/impg/hCSY404hQ1I3y1ecTNYoDuIYJ57gJuFytI85eQ/JGF-dLAV3hk.jpg?size=1280x1280&quality=95&sign=bd89054e1a2dfcf07d870cd5a8ecde8d&type=album" alt="Card image cap">
+ </div>
   <div class="card text-center">
     <div class="card-body">
       <h5 class="card-title">Название карточки</h5>

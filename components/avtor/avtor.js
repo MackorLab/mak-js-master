@@ -66,7 +66,7 @@ class Avtor {
 
 <div class="card-columns">
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src="https://sun4-12.userapi.com/impg/PtHgD9wdHjvwqM3kPXRSoZnyO-Of7r2Z1Ph3zg/cLCfdyNvo14.jpg?size=864x1080&quality=95&sign=93af1d207ca7ecd82bb31977f3060fcb&type=album" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Название карточки, которое завершает новую строку</h5>
       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -83,7 +83,7 @@ class Avtor {
     </blockquote>
   </div>
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src="https://sun9-24.userapi.com/impg/3_lNKzL9YQYqfZmtjVi7d2cyzgn33F6xyourjA/3E1_yCmRHpE.jpg?size=864x1080&quality=95&sign=ccbed2b014e4f64eb1c83c5039d35866&type=album" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Название карточки</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -108,7 +108,7 @@ class Avtor {
     </div>
   </div>
   <div class="card">
-    <img class="card-img" src="..." alt="Card image">
+    <img class="card-img" src="https://sun9-21.userapi.com/impg/Q6yhCEx0GMq_SjjvliemVS-7rNRdmVB2VKB30A/hk_uY7X1NEU.jpg?size=864x1080&quality=95&sign=88e047eca953adc7f590dd348ebf20fe&type=album" alt="Card image">
   </div>
   <div class="card p-3 text-right">
     <blockquote class="blockquote mb-0">

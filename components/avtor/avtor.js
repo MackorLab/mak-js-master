@@ -50,7 +50,7 @@ class Avtor {
   
   
   <div class="d-flex justify-content-center"> 
- <h3 id="blink1">Внимание плеер в режиме тестирования!</h3>
+ <h3 id="blink1">Дарина Вонголевская</h3>
    
 </div>
 

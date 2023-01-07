@@ -17,19 +17,13 @@ class Header {
                 
                
                
-               
-        <div class="header-counter">
-        <a class="nav-link" onclick="filterob()" Показать всё></a>
-        </div>
-        <div class="header-counter">
-        <a class="nav-link" onclick="filterst()"> Разработка сайтов</a>
-        </div>
-        <div class="header-counter">
-        <a class="nav-link" >Pricing</a>
-        </div>
-        <div class="header-counter">
-        <a class="nav-link disabled" onclick="filteravt()"> Об авторе 🔍 </a>
-        </div>
+          
+          <button class="btn btn-sm align-middle btn-outline-success" type="button"  onclick="filterob()">Показать всё</button>
+           <button class="btn btn-sm align-middle btn-outline-success" type="button"  onclick="filterst()"> Разработка сайтов</button>
+            <button class="btn btn-sm align-middle btn-outline-success" type="button"  onclick="filterob()">Упаковка соц.сетей [SMM]</button>
+             <button class="btn btn-sm align-middle btn-outline-success" type="button"  onclick="filteravt()">Об авторе 🔍</button>
+          
+   
                
                
                

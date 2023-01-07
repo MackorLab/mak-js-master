@@ -18,16 +18,18 @@ class Header {
                
                
                
-               
- 
+        <div class="header-counter">
         <a class="nav-link" onclick="filterob()" Показать всё></a>
-    
+        </div>
+        <div class="header-counter">
         <a class="nav-link" onclick="filterst()"> Разработка сайтов</a>
-     
+        </div>
+        <div class="header-counter">
         <a class="nav-link" >Pricing</a>
-   
+        </div>
+        <div class="header-counter">
         <a class="nav-link disabled" onclick="filteravt()"> Об авторе 🔍 </a>
-    
+        </div>
                
                
                

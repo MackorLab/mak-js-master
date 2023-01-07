@@ -37,11 +37,38 @@
 
 
 
+@media (min-width: 240px) and (max-width: 360px) {
 
-.header-icon {
-  	
+.pop-icon {
+   margin-left: 5%;	
     cursor: pointer;
 }
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 420px) and (max-width: 1420px) {
+
+.pop-icon {
+   margin-left: 95%;	
+    cursor: pointer;
+}
+
+
+}
+
+
+
+
+
+
 
 
 

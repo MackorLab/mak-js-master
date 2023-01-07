@@ -17,13 +17,13 @@ class Header {
                 
                
                
-          
+            <div id="myBtnContainer">  
           <button class="btn btn-sm align-middle btn-outline-success" type="button"  onclick="filterob()">Показать всё</button>
            <button class="btn btn-sm align-middle btn-outline-success" type="button"  onclick="filterst()"> Разработка сайтов</button>
             <button class="btn btn-sm align-middle btn-outline-success" type="button"  onclick="filterob()">Упаковка соц.сетей [SMM]</button>
              <button class="btn btn-sm align-middle btn-outline-success" type="button"  onclick="filteravt()">Об авторе 🔍</button>
           
-   
+   </div>
                
                
                

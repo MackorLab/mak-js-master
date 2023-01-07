@@ -38,7 +38,7 @@ var reloads;
 if (sumCatalog > 0) {
   const html = `
   <div class="shopping-container">
-<a class="header-icon" onclick="shoppingPage.handlerClear();"><img src="https://i.ibb.co/F3SMJxY/shopping-cart-remove-12830-1.png" alt="shopping-cart"></a>
+<a class="pop-icon" onclick="shoppingPage.handlerClear();"><img src="https://i.ibb.co/F3SMJxY/shopping-cart-remove-12830-1.png" alt="shopping-cart"></a>
       
       <table>
           ${htmlCatalog}
@@ -56,7 +56,7 @@ ROOT_SHOPPING.innerHTML = html;
 } else {
   const html = `
                 <div class="shopping-container">
-              <a class="header-icon" onclick="shoppingPage.handlerClear();"><img src="https://i.ibb.co/F3SMJxY/shopping-cart-remove-12830-1.png" alt="shopping-cart"></a>
+              <a class="pop-icon" onclick="shoppingPage.handlerClear();"><img src="https://i.ibb.co/F3SMJxY/shopping-cart-remove-12830-1.png" alt="shopping-cart"></a>
                     
                     <table>
                         ${htmlCatalog}

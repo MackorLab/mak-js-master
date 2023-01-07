@@ -55,7 +55,7 @@ class Avtor {
 </div>
 
 
-<br>
+
                  <div id="player1"></div>
                  <div id="playlist_container"></div>
 <br>

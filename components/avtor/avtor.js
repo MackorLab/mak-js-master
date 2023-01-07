@@ -91,7 +91,7 @@ class Avtor {
     </div>
   </div>
 <div class="card">
-  <img class="card-img-top" src="https://sun9-3.userapi.com/impg/hCSY404hQ1I3y1ecTNYoDuIYJ57gJuFytI85eQ/JGF-dLAV3hk.jpg?size=1280x1280&quality=95&sign=bd89054e1a2dfcf07d870cd5a8ecde8d&type=album" alt="Card image cap">
+  <img class="card-img-top" src="https://sun9-48.userapi.com/impg/azFDHI24SNAP_YYwhOn5MR9c75eNVX3JW1YRSQ/WaOa5CwlQDU.jpg?size=1280x1280&quality=96&sign=a374d682317e54febe5ceb231f4ed632&type=album" alt="Card image cap">
  </div>
   <div class="card text-center">
     <div class="card-body">

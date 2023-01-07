@@ -146,7 +146,10 @@ class Avtor {
 
 <div class="card bg-dark text-white">
   <img class="card-img" src="https://i.ibb.co/pvW5fgN/Screenshot-539.jpg" alt="Card image">
-  
+  <div class="card-img-overlay">
+    <h5 class="card-title">Название карточки</h5>
+    
+  </div>
 </div>
 
 

@@ -136,7 +136,7 @@ class Avtor {
 
 
 <div class="row">
-  <div class="col-sm-3">
+  <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Специальный заголовок</h5>
@@ -145,7 +145,7 @@ class Avtor {
       </div>
     </div>
   </div>
-  <div class="col-sm-3">
+  <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Специальный заголовок</h5>

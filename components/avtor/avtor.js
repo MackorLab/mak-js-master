@@ -156,8 +156,6 @@ class Avtor {
       </div>
     </div>
   </div>
-</div>
-
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
@@ -168,7 +166,10 @@ class Avtor {
       </div>
     </div>
   </div>
-</div>
+ </div>
+
+
+
 
 
 

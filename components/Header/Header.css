@@ -4,12 +4,35 @@
     padding: var(--spacing-small);
     background-color: var(--color-medium);
 }
+
+
+
+@media (min-width: 1240px)  {
+
+.header-counter {
+    margin-left: 85%;
+    padding-right: var(--spacing-small);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
 .header-counter {
     margin-left: 5%;
     padding-right: var(--spacing-small);
     font-weight: bold;
     cursor: pointer;
 }
+
+}
+
 
 .header-icon {
     cursor: pointer;

@@ -135,68 +135,6 @@ class Avtor {
 
 
 
-<div class="row">
-  <div class="col-sm-4">
-    <div class = "card h-100">
-      <div class="card-body">
-        <h5 class="card-title">КОНЦЕПЦИЯ ДИЗАЙНА [СТАРТ]</h5>
-          <img class="card-img-top" src="https://sun9-67.userapi.com/j-iSiFgaBFMMk4GpmVXoF3s372yQrIKYaoeOUQ/GuIDyF9jjIY.jpg" alt="Card image cap">
-        <p class="card-text">⚡️ 5 000 ₽</p>
-        <a href="#" class="btn btn-outline-info">Переход куда-нибудь</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class = "card h-100">
-      <div class="card-body">
-        <h5 class="card-title">ДИЗАЙН ПО ТВОЕМУ ПРОТОТИПУ [8 ЭКРАНОВ] ПК МАКЕТ</h5>
-          <img class="card-img-top" src="https://sun9-20.userapi.com/rOw-zwz7MduM6KnOWwoRERI6Mn6W2aq0yykBaQ/7H1dqZ3aIRc.jpg" alt="Card image cap">
-        <p class="card-text">⚡️от 25 000 ₽</p>
-        <a href="#" class="btn btn-outline-info">Переход куда-нибудь</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class = "card h-100">
-      <div class="card-body">
-        <h5 class="card-title">ЛЕНДИНГ НА ✴TILDA ПОД КЛЮЧ✴ [БИЗНЕС] 8 ЭКРАНО</h5>
-          <img class="card-img-top" src="https://sun9-58.userapi.com/CY9fiJnhXvQUe9_1rnuXsXllN0oI42gEr6Qxcg/4wQ2pw8j3xQ.jpg" alt="Card image cap">
-        <p class="card-text">⚡️от 40 000 ₽</p>
-        <a href="#" class="btn btn-outline-info">Переход куда-нибудь</a>
-      </div>
-    </div>
-  </div>
-    <div class="col-sm-4">
-    <div class = "card h-100">
-      <div class="card-body">
-        <h5 class="card-title">КОНЦЕПЦИЯ ДИЗАЙНА [СТАРТ]</h5>
-          <img class="card-img-top" src="https://sun9-67.userapi.com/j-iSiFgaBFMMk4GpmVXoF3s372yQrIKYaoeOUQ/GuIDyF9jjIY.jpg" alt="Card image cap">
-        <p class="card-text">⚡️ 5 000 ₽</p>
-        <a href="#" class="btn btn-outline-info">Переход куда-нибудь</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class = "card h-100">
-      <div class="card-body">
-        <h5 class="card-title">ДИЗАЙН ПО ТВОЕМУ ПРОТОТИПУ [8 ЭКРАНОВ] ПК МАКЕТ</h5>
-          <img class="card-img-top" src="https://sun9-20.userapi.com/rOw-zwz7MduM6KnOWwoRERI6Mn6W2aq0yykBaQ/7H1dqZ3aIRc.jpg" alt="Card image cap">
-        <p class="card-text">⚡️от 25 000 ₽</p>
-        <a href="#" class="btn btn-outline-info">Переход куда-нибудь</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class = "card h-100">
-      <div class="card-body">
-        <h5 class="card-title">ЛЕНДИНГ НА ✴TILDA ПОД КЛЮЧ✴ [БИЗНЕС] 8 ЭКРАНО</h5>
-          <img class="card-img-top" src="https://sun9-58.userapi.com/CY9fiJnhXvQUe9_1rnuXsXllN0oI42gEr6Qxcg/4wQ2pw8j3xQ.jpg" alt="Card image cap">
-        <p class="card-text">⚡️от 40 000 ₽</p>
-        <a href="#" class="btn btn-outline-info">Переход куда-нибудь</a>
-      </div>
-    </div>
-  </div>
- </div>
 
 
 

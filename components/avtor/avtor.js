@@ -177,15 +177,3 @@ class Avtor {
 
 const avtorPage = new Avtor();
 
-
-
-
-
-
-
-
-
-
-
-
-

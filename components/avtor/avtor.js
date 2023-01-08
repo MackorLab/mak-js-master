@@ -19,22 +19,22 @@ class Avtor {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://i.ibb.co/31rH7bx/Screenshot-553.jpg" alt="Первый слайд">
+      <img class="d-block w-100" src="https://i.ibb.co/6Pd3119/Screenshot-560.jpg" alt="Первый слайд">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://sun9-34.userapi.com/impg/4Nb1ElhZx8So2s7gCtQMnP6BbGxmkncgUO3-0A/9mPG0sA2sEc.jpg?size=807x437&quality=95&sign=657491d6d0c7213597781e3944908504&type=album" alt="Второй слайд">
+      <img class="d-block w-100" src="https://i.ibb.co/Mswsq2w/Screenshot-555.jpg" alt="Второй слайд">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://sun9-22.userapi.com/impg/y7iIQXrIMX6R4l1T8uIWt1585CPppFJesT5dfw/FbJWTTfIEXQ.jpg?size=807x807&quality=95&sign=44d0ea6100725afa324457bd79eebdbb&type=album" alt="Третий слайд">
+      <img class="d-block w-100" src="https://i.ibb.co/0V1Mr1n/Screenshot-556.jpg" alt="Третий слайд">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://sun9-36.userapi.com/impg/ccyomgMuFs5TiTehmxqXRGLesw1lKel2vdMKRw/Ekc82SdZslQ.jpg?size=807x807&quality=95&sign=373c1b6f64c9129009b6ba25254e40cc&type=album" alt="Третий слайд">
+      <img class="d-block w-100" src="https://i.ibb.co/P5WCsg8/Screenshot-548.jpg" alt="Третий слайд">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://sun4-15.userapi.com/impg/t7BuDLlS98dvHUaxnlcxtv3oRNQcUbxcPCv7Jw/cudnXuUM-Ww.jpg?size=807x807&quality=95&sign=67a98e2a5cea6bb9c774aa8c7ac6d3cf&type=album" alt="Третий слайд">
+      <img class="d-block w-100" src="https://i.ibb.co/418s5sW/Screenshot-558.jpg" alt="Третий слайд">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://sun9-88.userapi.com/impg/dSBbuSU_KhbQ4-dM3-mtCJIt8nIX6VaLOl7HOw/rvTIIkRY2eQ.jpg?size=807x807&quality=95&sign=1899b9330cc456e65d16227afb62372c&type=album" alt="Третий слайд">
+      <img class="d-block w-100" src="https://i.ibb.co/DDG5bS5/Screenshot-554.jpg" alt="Третий слайд">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

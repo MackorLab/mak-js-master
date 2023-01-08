@@ -28,7 +28,7 @@ class Avtor {
       <img class="d-block w-100" src="https://i.ibb.co/0V1Mr1n/Screenshot-556.jpg" alt="Третий слайд">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://i.ibb.co/P5WCsg8/Screenshot-548.jpg" alt="Третий слайд">
+      <img class="d-block w-100" src="https://i.ibb.co/p4Twtkh/Screenshot-561.jpg" alt="Третий слайд">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="https://i.ibb.co/418s5sW/Screenshot-558.jpg" alt="Третий слайд">

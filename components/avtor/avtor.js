@@ -19,7 +19,7 @@ class Avtor {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://i.ibb.co/fpRQsZC/Screenshot-551.jpg" alt="Первый слайд">
+      <img class="d-block w-100" src="https://i.ibb.co/31rH7bx/Screenshot-553.jpg" alt="Первый слайд">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="https://sun9-34.userapi.com/impg/4Nb1ElhZx8So2s7gCtQMnP6BbGxmkncgUO3-0A/9mPG0sA2sEc.jpg?size=807x437&quality=95&sign=657491d6d0c7213597781e3944908504&type=album" alt="Второй слайд">

@@ -181,7 +181,7 @@ const avtorPage = new Avtor();
 
 
 
-var modal = document.getElementById('myModalpop');
+var modalsis = document.getElementById('myModalpop');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg');

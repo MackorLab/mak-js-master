@@ -117,7 +117,7 @@ class Avtor {
   </div>
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title">Нет я не плачу, просто Дима ничего больше не придумал.</h5>
+      <h5 class="card-title">Название карточки</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       <img class="card-img" src="https://sun9-26.userapi.com/impg/X_LGqMf1FgRhCrEYJb2aZYhpO0XUr27Hx6nxfw/mlfOSnG-5Kw.jpg?size=864x1080&quality=96&sign=c22036925d88ef36e737edc6dccc0fef&type=album" alt="Card image">
@@ -150,7 +150,7 @@ class Avtor {
 <div class="card bg-dark text-white">
   <img class="card-img" src="https://i.ibb.co/pvW5fgN/Screenshot-539.jpg" alt="Card image">
   <div class="card-img-overlay">
-    <h5 class="card-title">Название карточки</h5>
+    <h5 class="card-title">Нет я не плачу, просто Дима ничего больше не придумал.</h5>
     
   </div>
 </div>

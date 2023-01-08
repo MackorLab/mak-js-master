@@ -12,9 +12,10 @@ class Header {
             <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn"> Меню</button>
   <div id="myDropdown" class="dropdown-content">
-    <a onclick="filterob()"> Показать всё💜</a>
-    <a onclick="filterst()"> Разработка сайтов💜</a>
-    <a onclick="filteravt()"> Об авторе🔍</a>
+    <a onclick="filterob()">Показать всё 💜</a>
+    <a onclick="filterst()">Разработка сайтов 💜</a>
+    <a onclick="filterst()">Упаковка соц.сетей [SMM] 💜</a>
+    <a onclick="filteravt()"> Об авторе 🔎</a>
   </div>
 </div>
             

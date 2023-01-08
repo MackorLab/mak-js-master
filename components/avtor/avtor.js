@@ -78,6 +78,7 @@ class Avtor {
       <footer class="blockquote-footer">
         <small class="text-muted">
           Someone famous in <cite title="Source Title">Source Title</cite>
+           <img class="card-img" src="https://sun9-48.userapi.com/impg/ftKeKj_JhUGK8P3RLO3L-cBXf9ERGPzLdoZ6Ag/plgOcUokmMc.jpg?size=864x1080&quality=96&sign=574539b45d179b3b9d2821c361bd6bae&type=album" alt="Card image">
         </small>
       </footer>
     </blockquote>
@@ -109,7 +110,7 @@ class Avtor {
       <footer class="blockquote-footer">
         <small class="text-muted">
           Someone famous in <cite title="Source Title">Source Title</cite>
-          <img class="card-img" src="https://sun9-48.userapi.com/impg/ftKeKj_JhUGK8P3RLO3L-cBXf9ERGPzLdoZ6Ag/plgOcUokmMc.jpg?size=864x1080&quality=96&sign=574539b45d179b3b9d2821c361bd6bae&type=album" alt="Card image">
+         
         </small>
       </footer>
     </blockquote>

@@ -109,13 +109,14 @@ class Avtor {
       <footer class="blockquote-footer">
         <small class="text-muted">
           Someone famous in <cite title="Source Title">Source Title</cite>
+          <img class="card-img" src="https://sun9-48.userapi.com/impg/ftKeKj_JhUGK8P3RLO3L-cBXf9ERGPzLdoZ6Ag/plgOcUokmMc.jpg?size=864x1080&quality=96&sign=574539b45d179b3b9d2821c361bd6bae&type=album" alt="Card image">
         </small>
       </footer>
     </blockquote>
   </div>
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title">Название карточки</h5>
+      <h5 class="card-title">Нет я не плачу, просто Дима ничего больше не придумал.</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       <img class="card-img" src="https://sun9-26.userapi.com/impg/X_LGqMf1FgRhCrEYJb2aZYhpO0XUr27Hx6nxfw/mlfOSnG-5Kw.jpg?size=864x1080&quality=96&sign=c22036925d88ef36e737edc6dccc0fef&type=album" alt="Card image">

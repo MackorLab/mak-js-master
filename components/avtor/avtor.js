@@ -25,7 +25,7 @@ class Avtor {
       <img class="d-block w-100" src="https://sun9-34.userapi.com/impg/4Nb1ElhZx8So2s7gCtQMnP6BbGxmkncgUO3-0A/9mPG0sA2sEc.jpg?size=807x437&quality=95&sign=657491d6d0c7213597781e3944908504&type=album" alt="Второй слайд">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://sun9-52.userapi.com/impg/ApdUBTG5xaLwULljhibLeK4Us4f1MJevHB8i2Q/JgDNMrLJ0_Y.jpg?size=807x498&quality=95&sign=9b4beb2ea3392b8933ad7114947afd24&type=album" alt="Третий слайд">
+      <img class="d-block w-100" src="https://sun9-36.userapi.com/impg/ccyomgMuFs5TiTehmxqXRGLesw1lKel2vdMKRw/Ekc82SdZslQ.jpg?size=807x807&quality=95&sign=373c1b6f64c9129009b6ba25254e40cc&type=album" alt="Третий слайд">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

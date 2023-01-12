@@ -233,3 +233,4 @@ htmlCatalog += `
 };
 
 const productsPage = new Products();
+productsPage.render();

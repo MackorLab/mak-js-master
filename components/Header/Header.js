@@ -22,7 +22,7 @@ class Header {
   
             
                  <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
-                   ${count} <a class="header-icon"><img src="https://i.ibb.co/xjQM8kr/shoppingcart-to-compra-12829.png" alt="shoppingcart" border="0"></a> 
+                   <a class="header-icon"><img src="https://i.ibb.co/xjQM8kr/shoppingcart-to-compra-12829.png" alt="shoppingcart" border="0">${count} </a> 
                  </div>
                 
                

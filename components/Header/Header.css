@@ -10,7 +10,7 @@
 @media (min-width: 420px) and (max-width: 1420px) {
 
 .header-counter {
-    margin-left: 80%;
+    margin-left: 82%;
     padding-right: var(--spacing-small);
     font-weight: bold;
     cursor: pointer;

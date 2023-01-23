@@ -138,8 +138,7 @@ vkBridge.send('VKWebAppInit');
 <script>
 	
 
-
-  document.getElementById("player1").addEventListener("init",PlayerInit);
+document.getElementById("player1").addEventListener("init",PlayerInit);
    var player = new Playerjs({
       id:"player1",
       file:[
@@ -148,15 +147,20 @@ vkBridge.send('VKWebAppInit');
          {"title":"Урок - 3 Enigma",file:"https://cloud.cdnland.in/5a216b8c54e67cb439ce4e89eac01ea1:2023012402/movies/667e12f0f642981d3c914ff998946cf3a754ce99/240.mp4?dn=%D0%90%D0%B2%D0%B0%D1%82%D0%B0%D1%80:%20%D0%9F%D1%83%D1%82%D1%8C%20%D0%B2%D0%BE%D0%B4%D1%8B_1080.mp4"}
       ]
    });
-   
+   function PlayerInit(){
       player.api("moveplaylist","playlist_container");
-   
+   }	
 		
+		
+		
+		
+  
+
 		
 
+
+setTimeout(timav, 1000);
 	
-	
-		
 	
 
 	</script>
